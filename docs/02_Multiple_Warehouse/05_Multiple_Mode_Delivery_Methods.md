@@ -75,7 +75,8 @@ In this case, the order will be shipped from the Kansas.
 You may sell the same product at different prices depending on the warehouse location. In the instance below you offer discounts on the Item A and the Item B for the warehouses Colorado and Kansas.
 
  
-Warehouse |	Item A |	Item B
+Warehouse | Item A | Item B
+----- | ----- | -----
 Colorado |Price:	$10.00 Discount:	$0.00 Final Price:	$10.00 | Price:	$10.00 Discount:	$1.00 Final Price:	$9.00
 Kansas | Price:	$10.00 Discount:	$1.00 Final Price:	$9.00 | Price:	$10.00 Discount:	$0.00 Final Price:	$10.00
 
@@ -89,7 +90,6 @@ Item A: $9.00 (Kansas) |	$9.00 + $9.00 = $18.00 |	$9.00 + $10.00 = $19.00
 
 **Table 8. Lowest Subtotal – Summary Prices**
 
- 
 
 The Multi-Warehouse Magento extension will specify the lowest price on every item and suggest it to the consumer (John Doe).
 
