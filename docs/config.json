@@ -1,11 +1,10 @@
 {
-    "title": "DAUX.IO",
-    "tagline": "The Easiest Way To Document Your Project",
-    "author": "Justin Walsh",
+    "title": "Merchant Protocol",
+    "tagline": "We're Your Magento Developers",
+    "author": "Jonathon Byrd",
     "image": "app.png",
     "ignore": {
-            "files": ["Work_In_Progress.md"],
-            "folders": ["99_Not_Ready"]
+
     },
     "live": {
         "inherit_index": true,
@@ -19,14 +18,10 @@
         "date_modified": true,
         "float": true,
 
-        "repo": "justinwalsh/daux.io",
-        "twitter": ["justin_walsh", "todaymade"],
-        "google_analytics": "UA-12653604-10",
+        "repo": "merchantprotocol",
+        "twitter": ["merchantproto"],
+        "google_analytics": "UA-68106064-1",
         "links": {
-            "Download": "https://github.com/justinwalsh/daux.io/archive/master.zip",
-            "GitHub Repo": "https://github.com/justinwalsh/daux.io",
-            "Help/Support/Bugs": "https://github.com/justinwalsh/daux.io/issues",
-            "Made by Todaymade": "http://todaymade.com"
         }
     }
 }
