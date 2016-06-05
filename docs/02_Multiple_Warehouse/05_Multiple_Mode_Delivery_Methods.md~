@@ -36,7 +36,7 @@ Kansas |	$1.50 |	$1.50
 **Table 3. Lowest Shipping – Shipping Prices**
 
  
-Items | Item B: $1.00 (Colorado)	| Item B: $1.50 (Kansas)
+ 	| Item B: $1.00 (Colorado)	| Item B: $1.50 (Kansas)
 ----- | ----- | -----
 Item A: $1.00 (Colorado) |	$1.00 + $1.00 = $2.00 |	$1.00 + $1.50 = $2.50
 Item A: $1.50 (Kansas) |	$1.50 + $1.00 = $2.50 |	$1.50 + $1.50 = $3.00
@@ -60,7 +60,7 @@ Kansas |	$1.00 |	$1.00
 **Table 5. Lowest Tax – Taxes**
 
  
-Items | Item B: $2.00 (Colorado)	| Item B: $1.00 (Kansas)
+ | Item B: $2.00 (Colorado)	| Item B: $1.00 (Kansas)
 ----- | ----- | -----
 Item A: $2.00 (Colorado) |	$2.00 + $2.00 = $4.00 |	$2.00 + $1.00 = $3.00
 Item A: $1.00 (Kansas) |	$1.00 + $2.00 = $3.00 |	$1.00 + $1.00 = $2.00
@@ -82,7 +82,7 @@ Kansas | Price:	$10.00 Discount:	$1.00 Final Price:	$9.00 | Price:	$10.00 Discou
 **Table 7. Lowest Subtotal – Prices**
 
  
-Items | Item B: $9.00 (Colorado)	| Item B: $10.00 (Kansas)
+ | Item B: $9.00 (Colorado)	| Item B: $10.00 (Kansas)
 ----- | ----- | -----
 Item A: $10.00 (Colorado) |	$10.00 + $9.00 = $19.00 |	$10.00 + $10.00 = $20.00
 Item A: $9.00 (Kansas) |	$9.00 + $9.00 = $18.00 |	$9.00 + $10.00 = $19.00
@@ -115,7 +115,7 @@ Kansas | Price	$10.00 Tax	$1.00 Discount	$1.00 Shipping	$1.50 Final Price	$11.50
 Multi-Warehouse by InnoExts calculates all the factors and suggests the optimal solution. In this example that’ll be the lowest cart price (sum price of items A and B).
 
  
-Items | Item B: $12.00 (Colorado) |	Item B: $12.50 (Kansas)
+ | Item B: $12.00 (Colorado) |	Item B: $12.50 (Kansas)
 ----- | ----- | -----
 Item A: $13.00 (Colorado) |	$13.00 + $12.00 = $25.00 |	$13.00 + $12.50 = $25.50
 Item A: $11.50 (Kansas) |	$11.50 + $12.00 = $23.50 \	$11.50 + $12.50 = $24.00
