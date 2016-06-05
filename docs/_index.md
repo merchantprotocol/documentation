@@ -1,64 +1,61 @@
 <p class="lead">
-	<strong>Daux.io</strong> is a documentation generator that uses a simple folder structure and Markdown files to create custom documentation on the fly. It helps you create great looking documentation in a developer friendly way.
+	<strong>Merchant Protocol</strong> is Magento Extensions developer. We write software so that you don't have to.
 </p>
 
 <hr/>
-<h3>Features</h3>
+<h3>Quick Reference</h3>
 <hr/>
 <div class=row>
 <div class="col-sm-4">
 
-#### For Authors
+#### Extensions Marketplace
 
-* [Auto Generated Navigation / Page sorting](!Features/Navigation_and_Sorting)
-* [Internal documentation links](!Features/Internal_links)
-* [Github Flavored Markdown](!Features/GitHub_Flavored_Markdown)
-* [Auto created homepage/landing page](!Features/Landing_page)
-* [Multiple Output Formats](!Features/Multiple_Output_Formats)
-* [Multiple Languages Support](!Features/Multilanguage)
-* [No Build Step](!Features/Live_mode)
-* [Static Output Generation](!Features/Static_Site_Generation)
-* [Table of Contents](!Features/Table_of_contents)
+* [Multiple Warehouse Inventory Management PLUS Pricing](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/multi-warehouse-plus.html)
+* [Multiple Warehouse Inventory Management](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/multi-warehouse.html)
+* [Shipping, Payment, Promotion, Currency, Catalog Filtering](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/zones-manager.html)
+* [Advanced Pricing Management](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/advanced-pricing.html)
+* [Geo Discount Pricing](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/zone-pricing.html)
+* [Currency Specific Pricing](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/currency-pricing.html)
+* [Product Base Currency](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/product-base-currency.html)
+* [Customer Groups Manager](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/customer-groups-manager.html)
+* [Advanced Dataflow](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/advanced-dataflow.html)
+* [Shipping Table Rates ](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/shipping-table-rates.html)
+* [Hidden Guest Registration at Checkout](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/hidden-guest-registration-at-checkout.html)
+* [Currency Geo Filter](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/currency-geo-filter.html)
+* [Store View Pricing](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/store-view-pricing.html)
 
-</div>
-<div class="col-sm-4">
-
-#### For Developers
-
-* [Auto Syntax Highlighting](!Features/Auto_Syntax_Highlight)
-* [Extend Daux.io with Processors](!For_Developers/Creating_a_Processor)
-* Full access to the internal API to create new pages programatically
-* Work with pages metadata
 
 </div>
 <div class="col-sm-4">
 
-#### For Marketing
+#### Demos
 
-* 100% Mobile Responsive
-* 4 Built-In Themes or roll your own
-* Functional, Flat Design Style
-* Optional code float layout
-* Shareable/Linkable SEO Friendly URLs
-* Supports Google Analytics and Piwik Analytics
+* [Multiple Warehouse Inventory Management PLUS Pricing](http://demo.merchantprotocol.com/M1-warehouse-plus/)
+* [Multiple Warehouse Inventory Management](http://demo.merchantprotocol.com/M1-warehouse)
+* [Shipping, Payment, Promotion, Currency, Catalog Filtering](http://demo.merchantprotocol.com/M1-zone/)
+* [Advanced Pricing Management](http://demo.merchantprotocol.com/M1-advanced-pricing)
+* [Geo Discount Pricing](http://demo.merchantprotocol.com/M1-zone-pricing)
+* [Currency Specific Pricing](http://demo.merchantprotocol.com/M1-currency-pricing)
+* [Product Base Currency](http://demo.merchantprotocol.com/M1-product-base-currency/)
+* [Customer Groups Manager](http://demo.merchantprotocol.com/M1-customer-group/)
+* [Advanced Dataflow](http://demo.merchantprotocol.com/M1-advanced-data-flow)
+* [Shipping Table Rates](http://demo.merchantprotocol.com/M1-shipping-table-rate)
+* [Hidden Guest Registration at Checkout](http://demo.merchantprotocol.com/M1-guest-registration)
+* [Currency Geo Filter](http://demo.merchantprotocol.com/M1-currency-geo-filter)
+* [Store View Pricing](http://demo.merchantprotocol.com/M1-store-pricing)
+
+</div>
+<div class="col-sm-4">
+
+#### Support
+
+* [Forum](https://merchantprotocol.com/forums/)
+* [Customization Services](https://merchantprotocol.com/get-a-software-development-quote/)
+* [Email Support](mailto:info@merchantprotocol.com)
+
 
 </div>
 </div>
 
 <div class="clear"></div>
-<hr/>
 
-<!-- Google Code -->
-<script type="text/javascript">
-var google_conversion_id = 983836026;
-var google_custom_params = window.google_tag_params;
-var google_remarketing_only = true;
-</script>
-
-<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-</script>
-<noscript>
-<div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/983836026/?value=0&amp;guid=ON&amp;script=0"/>
-</div>
-</noscript>

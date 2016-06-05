@@ -1,10 +1,14 @@
-**Merchant Protocol Documentation** contains all of the information that you'll need to manage your Merchant Protocol Extensions or integrate with the Merchant Protocol Payment Gateway.
+<p class="lead">
+	<strong>Merchant Protocol</strong> is Magento Extensions developer. We write software so that you don't have to.
+</p>
 
-[TOC]
+<hr/>
+<h3>Quick Reference</h3>
+<hr/>
+<div class=row>
+<div class="col-sm-4">
 
-## Features
-
-### Extensions Marketplace
+#### FExtensions Marketplace
 
 * [Multiple Warehouse Inventory Management PLUS Pricing](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/multi-warehouse-plus.html)
 * [Multiple Warehouse Inventory Management](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/multi-warehouse.html)
@@ -20,16 +24,11 @@
 * [Currency Geo Filter](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/currency-geo-filter.html)
 * [Store View Pricing](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/store-view-pricing.html)
 
-### Support
 
-* [Forum](https://merchantprotocol.com/forums/)
-* [Customization Services](https://merchantprotocol.com/get-a-software-development-quote/)
-* [Email Support](mailto:info@merchantprotocol.com)
+</div>
+<div class="col-sm-4">
 
-
-## Demos
-
-This is a list of demo websites for our extensions
+#### Demos
 
 * [Multiple Warehouse Inventory Management PLUS Pricing](http://demo.merchantprotocol.com/M1-warehouse-plus/)
 * [Multiple Warehouse Inventory Management](http://demo.merchantprotocol.com/M1-warehouse)
@@ -45,6 +44,18 @@ This is a list of demo websites for our extensions
 * [Currency Geo Filter](http://demo.merchantprotocol.com/M1-currency-geo-filter)
 * [Store View Pricing](http://demo.merchantprotocol.com/M1-store-pricing)
 
-Do you use Merchant Protocol? Send us an email and we'll add you to our list.
+</div>
+<div class="col-sm-4">
 
+#### Support
+
+* [Forum](https://merchantprotocol.com/forums/)
+* [Customization Services](https://merchantprotocol.com/get-a-software-development-quote/)
+* [Email Support](mailto:info@merchantprotocol.com)
+
+
+</div>
+</div>
+
+<div class="clear"></div>
 
