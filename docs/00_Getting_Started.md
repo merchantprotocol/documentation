@@ -20,12 +20,6 @@
 * [Currency Geo Filter](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/currency-geo-filter.html)
 * [Store View Pricing](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/store-view-pricing.html)
 
-### Support
-
-* [Forum](https://merchantprotocol.com/forums/)
-* [Customization Services](https://merchantprotocol.com/get-a-software-development-quote/)
-* [Email Support](mailto:info@merchantprotocol.com)
-
 
 ## Demos
 
@@ -47,4 +41,10 @@ This is a list of demo websites for our extensions
 
 Do you use Merchant Protocol? Send us an email and we'll add you to our list.
 
+
+## Support
+
+* [Forum](https://merchantprotocol.com/forums/)
+* [Customization Services](https://merchantprotocol.com/get-a-software-development-quote/)
+* [Email Support](mailto:info@merchantprotocol.com)
 
