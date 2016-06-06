@@ -1,0 +1,17 @@
+{% block table -%}
+	<div class="table-responsive">
+	    <table class="table table-bordered table-striped">
+	        {{ node }}
+	    </table>
+    </div>
+{% endblock %}
+
+{% block table_row -%}
+    <tr>
+        {{ node }}
+    </tr>
+{% endblock %}
+
+{% block table_cell -%}
+    <td>{{ node }}</td>
+{% endblock %}
