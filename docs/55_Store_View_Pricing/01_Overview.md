@@ -1,0 +1,1 @@
+Store View Pricing is a useful tool for a Magento store administrator to set product prices for each store view separately. This Magento extension appends Store View Price scope in addition to Website and Global. From now you can set different prices for the same item depending on the store view.
