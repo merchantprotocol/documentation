@@ -1,4 +1,10 @@
-### Extensions Marketplace
+
+Extension | Documentation | Demo | Marketplace
+----- | ----- |  ----- |  -----
+Multiple Warehouse Inventory Management PLUS Pricing | [Docs](https://merchantprotocol.com/documentation/Multiple_Warehouse_Plus) | [demo](http://demo.merchantprotocol.com/M1-warehouse-plus/) | [buy](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/multi-warehouse-plus.html)
+
+
+## Extensions Marketplace
 
 * [Multiple Warehouse Inventory Management PLUS Pricing](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/multi-warehouse-plus.html)
 * [Multiple Warehouse Inventory Management](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/multi-warehouse.html)
