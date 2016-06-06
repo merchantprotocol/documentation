@@ -1,0 +1,1 @@
+Zone Pricing is a Magento module that helps to set product prices according to visitor geographical location. It enables to adjust prices for zones (areas / locations / countries / regions / states), by providing either fixed or percentage discounts for a particular product.
