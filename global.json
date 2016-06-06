@@ -2,9 +2,9 @@
     "docs_directory": "docs",
     "themes_directory": "themes",
 
-    "title": "My Project",
-    "tagline": "My Stylish Documentation",
-    "author": "I, Me & Myself",
+    "title": "Merchant Protocol",
+    "tagline": "Magento Developers",
+    "author": "Jonathon Byrd",
     "image": "",
     "languages": {},
 
@@ -24,7 +24,7 @@
     },
 
     "html": {
-        "theme": "daux-blue",
+        "theme": "protocol",
         "breadcrumbs": false,
         "toggle_code": false,
         "date_modified": false,
@@ -34,7 +34,7 @@
         "auto_toc": false,
 
         "repo": "",
-        "twitter": [],
+        "twitter": ["merchantproto"],
         "links": {
         },
 

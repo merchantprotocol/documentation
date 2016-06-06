@@ -16,15 +16,14 @@
         </div>
     <?php } ?>
 
-    <?= $page['content']; ?>
+    <?php echo $page['content']; ?>
 
     <?php if(!empty($page['prev']) || !empty($page['next'])) { ?>
-    <nav>
-        <ul class="pager">
-            <?php if(!empty($page['prev'])) { ?><li><a href="<?= $base_url . $page['prev']->getUrl() ?>">Previous</a></li><?php } ?>
-            <?php if(!empty($page['next'])) { ?><li><a href="<?= $base_url . $page['next']->getUrl() ?>">Next</a></li><?php } ?>
-        </ul>
-    </nav>
+    <div class="row margin-bottom-60">
+            <?php if(!empty($page['prev'])) { ?><div class="col-md-6 text-right"><a class="btn btn-primary" href="<?= $base_url . $page['prev']->getUrl() ?>">Previous</a></div><?php } ?>
+            <?php if(!empty($page['next'])) { ?><div class="col-md-6"><a class="btn btn-primary" href="<?= $base_url . $page['next']->getUrl() ?>">Next</a></div><?php } ?>
+        
+    </div>
     <?php } ?>
 </article>
 

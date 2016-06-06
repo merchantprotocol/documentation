@@ -1,47 +1,46 @@
 <?php $this->layout('theme::layout/00_layout') ?>
-<div class="navbar navbar-static-top hidden-print">
-    <div class="container">
-        <?php $this->insert('theme::partials/navbar_content', ['params' => $params]); ?>
-    </div>
-</div>
-<?php if ($params['html']['repo']) { ?>
-    <a href="https://github.com/<?= $params['html']['repo']; ?>" target="_blank" id="github-ribbon" class="github-ribbon hidden-print"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
-<?php } ?>
+<?php $this->insert('theme::partials/navbar_content', ['params' => $params]); ?>
 
-<div class="homepage-hero container-fluid">
-    <div class="container">
-        <div class="row">
-            <div class="text-center col-sm-12">
-                <?php if ($params['tagline']) {
-                    echo '<h2>' . $params['tagline'] . '</h2>';
-                } ?>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-10 col-sm-offset-1">
-                <?php if ($params['image']) {
-                    echo '<img class="homepage-image img-responsive" src="' . $params['image'] . '" alt="' . $params['title'] . '">';
-                } ?>
-            </div>
-        </div>
-    </div>
-</div>
+<section style="padding-top: 200px;">
+			<div class="container">
+				<header class="text-center margin-bottom-80">
+					<h1 style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;" class="nomargin size-50 weight-300 wow fadeInUp animated" data-wow-delay="0.4s">MP Documentation</h1>
+					<p style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;" class="lead font-lato size-30 wow fadeInUp animated" data-wow-delay="0.7s">Everything That You Need To Work With Our Software</p>
 
-<div class="hero-buttons container-fluid">
-    <div class="container text-center">
-        <?php
-        if ($params['html']['repo']) {
-            echo '<a href="https://github.com/' . $params['html']['repo'] . '" class="btn btn-secondary btn-hero">View On GitHub</a>';
-        }
-        foreach ($page['entry_page'] as $key => $node) {
-            echo '<a href="' . $node . '" class="btn btn-primary btn-hero">' . $key . '</a>';
-        }
-        ?>
-        <div class="clearfix"></div>
-    </div>
-</div>
+					<div class="margin-top-30">
+						<?php
+				        if ($params['html']['repo']) {
+				            echo '<a href="https://github.com/' . $params['html']['repo'] . '" class="btn btn-3d btn-lg btn-teal">View On GitHub</a>';
+				        }
+				        ?>
+				         <span class="size-17 hidden-xs">&nbsp; OR &nbsp;</span> 
+				        <?php 
+				        foreach ($page['entry_page'] as $key => $node) {
+				            echo '<a href="' . $node . '"  class="btn btn-3d btn-lg btn-red">' . $key . '</a>';
+				        }
+				        ?>
+					</div>
+				</header>
 
-<div class="homepage-content container-fluid">
+				<div class="row">
+
+					<div class="col-sm-5">
+						<img class="img-responsive" src="github.gif" alt="">
+					</div>
+
+					<div class="col-sm-7">
+						<p class="lead margin-bottom-60">The Merchant Protocol Documentation repository contains everything that you need to know to work with our extensions and integrate with our Payment Gateway.</p>
+						
+						<hr class="hidden-xs">
+						
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+
+<div class="homepage-content container-fluid margin-top-80">
     <div class="container">
         <div class="row">
             <div class="col-sm-10 col-sm-offset-1">
@@ -50,40 +49,111 @@
                 <?php } ?>
 
                 <div class="doc_content">
-                    <?= $page['content']; ?>
+                    <?php echo $page['content']; ?>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="homepage-footer container-fluid">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-5 col-sm-offset-1">
-                <?php if (!empty($params['html']['links'])) { ?>
-                    <ul class="footer-nav">
-                        <?php foreach ($params['html']['links'] as $name => $url) {
-                            echo '<li><a href="' . $url . '" target="_blank">' . $name . '</a></li>';
-                        } ?>
-                    </ul>
-                <?php } ?>
-            </div>
-            <div class="col-sm-5">
-                <div class="pull-right">
-                    <?php
-                    if (!empty($params['html']['twitter'])) {
-                        foreach ($params['html']['twitter'] as $handle) {
-                            ?>
-                            <div class="twitter">
-                                <iframe allowtransparency="true" frameborder="0" scrolling="no" style="width:162px; height:20px;" src="https://platform.twitter.com/widgets/follow_button.html?screen_name=<?= $handle; ?>&amp;show_count=false"></iframe>
-                            </div>
-                        <?php
-                        }
-                    }
-                    ?>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<footer id="footer">
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-md-3">
+							<!-- Footer Logo -->
+							<img class="footer-logo pull-left" style="width: 41px;" src="https://merchantprotocol.com/wp-content/themes/protocol/assets/images/merchant-protocol-shield.png" alt="">
+
+							<p>We Are Magento Developers from all over the world that have come 
+							together to provide you with the best possible software.</p>
+
+							<!-- Contact Address -->
+							<address>
+								<ul class="list-unstyled">
+									<li class="footer-sprite address">
+										113 Cherry St. Suite 15329<br>
+										Seattle, WA 98104<br>
+									</li>
+									<li class="footer-sprite phone">
+										Phone: 1-800-207-1221
+									</li>
+									<li class="footer-sprite email">
+										<a href="mailto:info@merchantprotocol.com">info@merchantprotocol.com</a>
+									</li>
+								</ul>
+							</address>
+							<!-- /Contact Address -->
+
+						</div>
+
+								<div id="recent-posts-3" class=" col-xs-12 col-sm-5 col-md-3 widget_recent_entries">		<h4 class="widgettitle">Latest News</h4>		<ul>
+					<li>
+				<a href="https://merchantprotocol.com/3629/magento-requirements/">Magento Requirements</a>
+						</li>
+					<li>
+				<a href="https://merchantprotocol.com/3626/quick-magento-installation/">Quick Magento Installation</a>
+						</li>
+					<li>
+				<a href="https://merchantprotocol.com/3623/magento-installation/">Magento Installation</a>
+						</li>
+					<li>
+				<a href="https://merchantprotocol.com/3620/ten-of-the-best-free-magento-extensions-available-for-download/">Ten Of The Best Free Magento Extensions Available For Download</a>
+						</li>
+				</ul>
+		</div>								<div id="nav_menu-7" class=" col-xs-12 col-sm-7 col-md-2 widget_nav_menu"><h4 class="widgettitle">Company</h4><div class="menu-company-container"><ul id="menu-company" class="menu"><li id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"><a href="https://merchantprotocol.com/about-merchant-protocol/">About Us</a></li>
+<li id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a href="https://merchantprotocol.com/merchant-protocol-careers/">Work With Us</a></li>
+<li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121"><a href="https://merchantprotocol.com/blog/">Blog</a></li>
+<li id="menu-item-3732" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3732"><a href="https://merchantprotocol.com/forums/">Support Forums</a></li>
+</ul></div></div>
+
+						<div class="col-md-4">
+
+							<!-- Social Icons -->
+							<div class="margin-top-20">
+<!-- 								<a href="#" class="social-icon social-icon-border social-facebook pull-left" data-toggle="tooltip" data-placement="top" title="Facebook"> -->
+
+<!-- 									<i class="icon-facebook"></i> -->
+<!-- 									<i class="icon-facebook"></i> -->
+<!-- 								</a> -->
+
+								<a data-original-title="Twitter" href="https://twitter.com/merchantproto" class="social-icon social-icon-border social-twitter pull-left" data-toggle="tooltip" data-placement="top" title="">
+									<i class="icon-twitter"></i>
+									<i class="icon-twitter"></i>
+								</a>
+
+								<a data-original-title="Google plus" href="https://plus.google.com/+Merchantprotocol/posts" class="social-icon social-icon-border social-gplus pull-left" data-toggle="tooltip" data-placement="top" title="">
+									<i class="icon-gplus"></i>
+									<i class="icon-gplus"></i>
+								</a>
+
+<!-- 								<a href="#" class="social-icon social-icon-border social-linkedin pull-left" data-toggle="tooltip" data-placement="top" title="Linkedin"> -->
+<!-- 									<i class="icon-linkedin"></i> -->
+<!-- 									<i class="icon-linkedin"></i> -->
+<!-- 								</a> -->
+
+								<a data-original-title="Rss" href="https://merchantprotocol.com/feed/" class="social-icon social-icon-border social-rss pull-left" data-toggle="tooltip" data-placement="top" title="">
+									<i class="icon-rss"></i>
+									<i class="icon-rss"></i>
+								</a>
+
+							</div>
+							<!-- /Social Icons -->
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="copyright">
+					<div class="container">
+						<ul class="pull-right nomargin list-inline mobile-block">
+							<li><a href="https://merchantprotocol.com/terms-of-use/">Terms &amp; Conditions</a></li>
+							<li>•</li>
+							<li><a href="https://merchantprotocol.com/privacy-policy/">Privacy</a></li>
+						</ul>
+						© All Rights Reserved, Merchant Protocol ™
+					</div>
+				</div>
+			</footer>

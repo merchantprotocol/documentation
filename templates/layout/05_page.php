@@ -1,34 +1,27 @@
 <?php $this->layout('theme::layout/00_layout') ?>
+<?php $this->insert('theme::partials/navbar_content', ['params' => $params]); ?>
 
-<?php if ($params['html']['repo']) { ?>
-    <a href="https://github.com/<?= $params['html']['repo']; ?>" target="_blank" id="github-ribbon" class="github-ribbon hidden-print"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
-<?php } ?>
-<div class="container-fluid fluid-height wrapper">
-    <div class="navbar navbar-static-top hidden-print">
-        <div class="container-fluid">
-            <?php $this->insert('theme::partials/navbar_content', ['params' => $params]); ?>
-        </div>
-    </div>
+<div class="container margin-top-100">
+    
     <div class="row columns content">
         <div class="left-column article-tree col-sm-3 hidden-print">
-            <!-- For Mobile -->
-            <div class="responsive-collapse">
-                <button type="button" class="btn btn-sidebar" id="menu-spinner-button">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
             <div id="sub-nav-collapse" class="sub-nav-collapse">
                 <!-- Navigation -->
-                <?php
-                if ($page['language'] !== '') {
-                    echo $this->get_navigation($tree->value[$page['language']], $page['language'], isset($params['request']) ? $params['request'] : '', $base_page, $params['mode']);
-                } else {
-                    echo $this->get_navigation($tree, '', isset($params['request']) ? $params['request'] : '', $base_page, $params['mode']);
-                }
-                ?>
-
+                
+				<div class="side-nav margin-top-60">
+					<div class="side-nav-head">
+						<button class="fa fa-bars"></button>
+						<h4>Navigation</h4>
+					</div>
+	                <?php
+	                if ($page['language'] !== '') {
+	                    echo $this->get_navigation($tree->value[$page['language']], $page['language'], isset($params['request']) ? $params['request'] : '', $base_page, $params['mode']);
+	                } else {
+	                    echo $this->get_navigation($tree, '', isset($params['request']) ? $params['request'] : '', $base_page, $params['mode']);
+	                }
+	                ?>
+				</div>
+                
 
                 <div class="sidebar-links">
                     <?php if (!empty($params['html']['links']) || !empty($params['html']['twitter']) || $params['html']['toggle_code']) { ?>
@@ -39,8 +32,8 @@
                             echo '<a href="' . $url . '" target="_blank">' . $name . '</a><br>';
                         } ?>
 
+                    
                         <div id="toggleCodeBlock">
-                        <?php if ($params['html']['toggle_code'] && $params['html']['float']) { ?>
                             <br />
                             <span class="code-buttons-text">Code blocks</span>
                             <div class="btn-group" role="group">
@@ -48,9 +41,6 @@
                               <button id="code-below" class="btn btn-sm btn-default">Below</button>
                               <button id="code-float" class="btn btn-sm btn-default">Inline</button>
                             </div>
-                        <?php } else if ($params['html']['toggle_code']) { ?>
-                            <a id="toggleCodeBlockBtn" href="#" onclick="toggleCodeBlocks();">Show Code Blocks Inline</a><br>
-                        <?php } ?>
                         </div>
 
                         <!-- Twitter -->
@@ -63,7 +53,7 @@
 
                         <hr/>
                     <?php } ?>
-
+                    
                 </div>
             </div>
         </div>
@@ -81,3 +71,105 @@
         </div>
     </div>
 </div>
+
+<footer id="footer">
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-md-3">
+							<!-- Footer Logo -->
+							<img class="footer-logo pull-left" style="width: 41px;" src="https://merchantprotocol.com/wp-content/themes/protocol/assets/images/merchant-protocol-shield.png" alt="">
+
+							<p>We Are Magento Developers from all over the world that have come 
+							together to provide you with the best possible software.</p>
+
+							<!-- Contact Address -->
+							<address>
+								<ul class="list-unstyled">
+									<li class="footer-sprite address">
+										113 Cherry St. Suite 15329<br>
+										Seattle, WA 98104<br>
+									</li>
+									<li class="footer-sprite phone">
+										Phone: 1-800-207-1221
+									</li>
+									<li class="footer-sprite email">
+										<a href="mailto:info@merchantprotocol.com">info@merchantprotocol.com</a>
+									</li>
+								</ul>
+							</address>
+							<!-- /Contact Address -->
+
+						</div>
+
+								<div id="recent-posts-3" class=" col-xs-12 col-sm-5 col-md-3 widget_recent_entries">		<h4 class="widgettitle">Latest News</h4>		<ul>
+					<li>
+				<a href="https://merchantprotocol.com/3629/magento-requirements/">Magento Requirements</a>
+						</li>
+					<li>
+				<a href="https://merchantprotocol.com/3626/quick-magento-installation/">Quick Magento Installation</a>
+						</li>
+					<li>
+				<a href="https://merchantprotocol.com/3623/magento-installation/">Magento Installation</a>
+						</li>
+					<li>
+				<a href="https://merchantprotocol.com/3620/ten-of-the-best-free-magento-extensions-available-for-download/">Ten Of The Best Free Magento Extensions Available For Download</a>
+						</li>
+				</ul>
+		</div>								<div id="nav_menu-7" class=" col-xs-12 col-sm-7 col-md-2 widget_nav_menu"><h4 class="widgettitle">Company</h4><div class="menu-company-container"><ul id="menu-company" class="menu"><li id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"><a href="https://merchantprotocol.com/about-merchant-protocol/">About Us</a></li>
+<li id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a href="https://merchantprotocol.com/merchant-protocol-careers/">Work With Us</a></li>
+<li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121"><a href="https://merchantprotocol.com/blog/">Blog</a></li>
+<li id="menu-item-3732" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3732"><a href="https://merchantprotocol.com/forums/">Support Forums</a></li>
+</ul></div></div>
+
+						<div class="col-md-4">
+
+							<!-- Social Icons -->
+							<div class="margin-top-20">
+<!-- 								<a href="#" class="social-icon social-icon-border social-facebook pull-left" data-toggle="tooltip" data-placement="top" title="Facebook"> -->
+
+<!-- 									<i class="icon-facebook"></i> -->
+<!-- 									<i class="icon-facebook"></i> -->
+<!-- 								</a> -->
+
+								<a data-original-title="Twitter" href="https://twitter.com/merchantproto" class="social-icon social-icon-border social-twitter pull-left" data-toggle="tooltip" data-placement="top" title="">
+									<i class="icon-twitter"></i>
+									<i class="icon-twitter"></i>
+								</a>
+
+								<a data-original-title="Google plus" href="https://plus.google.com/+Merchantprotocol/posts" class="social-icon social-icon-border social-gplus pull-left" data-toggle="tooltip" data-placement="top" title="">
+									<i class="icon-gplus"></i>
+									<i class="icon-gplus"></i>
+								</a>
+
+<!-- 								<a href="#" class="social-icon social-icon-border social-linkedin pull-left" data-toggle="tooltip" data-placement="top" title="Linkedin"> -->
+<!-- 									<i class="icon-linkedin"></i> -->
+<!-- 									<i class="icon-linkedin"></i> -->
+<!-- 								</a> -->
+
+								<a data-original-title="Rss" href="https://merchantprotocol.com/feed/" class="social-icon social-icon-border social-rss pull-left" data-toggle="tooltip" data-placement="top" title="">
+									<i class="icon-rss"></i>
+									<i class="icon-rss"></i>
+								</a>
+
+							</div>
+							<!-- /Social Icons -->
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="copyright">
+					<div class="container">
+						<ul class="pull-right nomargin list-inline mobile-block">
+							<li><a href="https://merchantprotocol.com/terms-of-use/">Terms &amp; Conditions</a></li>
+							<li>•</li>
+							<li><a href="https://merchantprotocol.com/privacy-policy/">Privacy</a></li>
+						</ul>
+						© All Rights Reserved, Merchant Protocol ™
+					</div>
+				</div>
+			</footer>

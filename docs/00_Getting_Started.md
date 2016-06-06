@@ -1,9 +1,3 @@
-**Merchant Protocol Documentation** contains all of the information that you'll need to manage your Merchant Protocol Extensions or integrate with the Merchant Protocol Payment Gateway.
-
-[TOC]
-
-## Features
-
 ### Extensions Marketplace
 
 * [Multiple Warehouse Inventory Management PLUS Pricing](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/multi-warehouse-plus.html)

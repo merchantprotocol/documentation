@@ -115,6 +115,10 @@ $(function () {
         $(this).parent().parent().toggleClass('open');
         return false;
     });
+    $('ul.nav.nav-list > li.list-group-item > a > .arrow').click(function() {
+        $(this).parent().parent().toggleClass('active');
+        return false;
+    });
 
     // Responsive navigation
     $('#menu-spinner-button').click(function () {

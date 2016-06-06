@@ -73,29 +73,33 @@ class Template
         });
     }
 
-    private function renderNavigation($entries)
+    private function renderNavigation($entries, $_ulClasses = true)
     {
         $nav = "";
         foreach ($entries as $entry) {
             if (array_key_exists('children', $entry)) {
 
-                $icon = '<i class="arrow">&nbsp;</i>';
+                $icon  ='';// '<i class="arrow">&nbsp;</i>';
 
                 if (array_key_exists('href', $entry)) {
-                    $link = '<a href="' . $entry['href'] . '" class="folder">' . $icon . $entry['title'] . '</a>';
+                    $link = '<a href="' . $entry['href'] . '" class="dropdown-toggle">' . $icon . $entry['title'] . '</a>';
                 } else {
-                    $link = '<a href="#" class="aj-nav folder">' . $icon . $entry['title'] . '</a>';
+                    $link = '<a href="#" class="dropdown-toggle">' . $icon . $entry['title'] . '</a>';
                 }
 
-                $link .= $this->renderNavigation($entry['children']);
+                $link .= $this->renderNavigation($entry['children'], false);
             } else {
-                $link = '<a href="' . $entry['href'] . '">' . $entry['title'] . '</a>';
+                $link = '<a class="" href="' . $entry['href'] . '">' . $entry['title'] . '</a>';
             }
 
-            $nav .= "<li class='$entry[class]'>$link</li>";
+            $nav .= "<li class='$entry[class]' style='list-style: outside none none;'>$link</li>";
         }
 
-        return "<ul class='nav nav-list'>$nav</ul>";
+        if ($_ulClasses) {
+       	 	return "<ul class='list-group list-group-bordered list-group-noicon uppercase'>$nav</ul>";
+        } else {
+        	return "<ul>$nav</ul>";
+        }
     }
 
     private function buildNavigation(Directory $tree, $path, $current_url, $base_page, $mode)
@@ -124,7 +128,7 @@ class Template
 
                 $folder = [
                     'title' => $node->getTitle(),
-                    'class' => strpos($current_url, $link) === 0 ? 'open' : '',
+                    'class' => strpos($current_url, $link) === 0 ? 'active' : '',
                 ];
 
                 if ($mode === Daux::STATIC_MODE) {
@@ -140,7 +144,7 @@ class Template
                 $folder['children'] = $this->buildNavigation($node, $new_path, $current_url, $base_page, $mode);
 
                 if (!empty($folder['children'])) {
-                    $folder['class'] .= ' has-children';
+                    $folder['class'] .= ' list-group-item';
                 }
 
                 $nav[] = $folder;

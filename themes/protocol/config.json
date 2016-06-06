@@ -1,0 +1,14 @@
+{
+    "favicon": "<theme_url>img/favicon.png",
+    "css": [
+    	"https://merchantprotocol.com/wp-content/themes/protocol/assets/plugins/bootstrap/css/bootstrap.min.css",
+    	"https://merchantprotocol.com/wp-content/themes/protocol/assets/css/essentials.css",
+    	"https://merchantprotocol.com/wp-content/themes/protocol/assets/css/layout.css",
+    	"https://merchantprotocol.com/wp-content/themes/protocol/assets/css/custom.css",
+    	"https://merchantprotocol.com/wp-content/themes/protocol/assets/css/header-1.css",
+    	"https://merchantprotocol.com/wp-content/themes/protocol/assets/css/color_scheme/green.css",
+    	"https://merchantprotocol.com/wp-content/themes/protocol/style.css"
+    ],
+    "fonts": ["https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700"],
+    "js": []
+}
