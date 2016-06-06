@@ -13,7 +13,7 @@
     "html": {
         "theme": "protocol",
         "breadcrumbs": true,
-        "breadcrumb_separator": "Chevrons",
+        "breadcrumb_separator": " | ",
         "toggle_code": true,
         "date_modified": true,
         "float": true,
