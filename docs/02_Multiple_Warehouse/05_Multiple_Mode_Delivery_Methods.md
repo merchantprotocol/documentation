@@ -118,7 +118,7 @@ Multi-Warehouse by InnoExts calculates all the factors and suggests the optimal 
 Items | Item B: $12.00 (Colorado) |	Item B: $12.50 (Kansas)
 ----- | ----- | -----
 Item A: $13.00 (Colorado) |	$13.00 + $12.00 = $25.00 |	$13.00 + $12.50 = $25.50
-Item A: $11.50 (Kansas) |	$11.50 + $12.00 = $23.50 \	$11.50 + $12.50 = $24.00
+Item A: $11.50 (Kansas) |	$11.50 + $12.00 = $23.50 |	$11.50 + $12.50 = $24.00
 
 **Table 10. Lowest Grand Total – Summary Prices**
 
