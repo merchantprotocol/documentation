@@ -1,4 +1,8 @@
 
+ - [Buy It](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/multi-warehouse-plus.html)
+ - [Demo It](http://demo.merchantprotocol.com/M1-warehouse-plus/)
+ - [Forum: Talk About It](https://merchantprotocol.com/forums/forum/magento-plugin-forum/multiple-warehouse-inventory-management-plus-pricing/)
+
 Expanding your business to new horizons, you will certainly encounter the problem of how to handle multiple warehouses in Magento. This is also true when you have already two or more store houses. Magento lets you only ship items from a single storage warehouse. Hence you can’t manage your multiple warehouses globally.
 
 We offer you our solution. InnoExts implements Multi-Warehouse with improved functionalities, providing you with more options and more features. This irreplaceable tool extends the capabilities of your multiple warehouses management, covering most of your needs.

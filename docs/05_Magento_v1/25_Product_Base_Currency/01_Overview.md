@@ -1,3 +1,8 @@
+
+ - [Buy It](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/product-base-currency.html)
+ - [Demo It](http://demo.merchantprotocol.com/M1-product-base-currency/)
+ - [Forum: Talk About It](https://merchantprotocol.com/forums/forum/magento-plugin-forum/product-base-currency/)
+
 Product Base Currency extension enables to set a base currency on a product level instead of setting it on a website level in configuration. Prices, special prices, tier prices, customer group prices and catalog price rule discount amounts can be set in a desired base currency for each product.
 
 ### Features

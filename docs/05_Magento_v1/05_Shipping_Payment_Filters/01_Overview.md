@@ -1,3 +1,8 @@
+
+ - [Buy It](https://merchantprotocol.com/store/magento-extensions/magento-v1-0/zones-manager.html)
+ - [Demo It](http://demo.merchantprotocol.com/M1-zone/)
+ - [Forum: Talk About It](https://merchantprotocol.com/forums/forum/magento-plugin-forum/shipping-payment-promotion-currency-catalog-filtering/)
+
 Zones Manager extension enables to create and manage geo zones with their own settings. It assigns the customer to a certain zone depending on his / her place of residence. For each zone the next options can be defined: minimum order amount, product prices, product special prices, product tier prices, catalog price rules, allowed / default stores, currencies, payment methods, shipping methods, catalog categories and products.
 
 #### Features
