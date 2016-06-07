@@ -4,15 +4,17 @@
 
 3. Back up Magento files and database to be able to revert changes in a couple of minutes in case of possible problems.
 
-4. Enable Magento error logs: System > Configuration > Advanced > Developer > Log Settings, Set Enabled to Yes. You can find errors information in files: var/log/system.log and var/log/exception.log (the file paths are related to the document root).
+4. Enable Magento error logs: System > Configuration > Advanced > Developer > Log Settings, Set Enabled to Yes. You can find errors information in files: `var/log/system.log` and `var/log/exception.log` (the file paths are related to the document root).
 
 5. Open file app/etc/modules/Innoexts_CustomerGroup.xml (the file path is related to the document root)
 
 6. Replace
-```<active>true</active>```
+
+	<active>true</active>
 
 with
-```<active>false</active>```
+
+	<active>false</active>
 
 7. If you don’t have other extensions installed that depend on the same sub-module then repeat the steps above for app/etc/modules/Innoexts_Core.xml.
 
