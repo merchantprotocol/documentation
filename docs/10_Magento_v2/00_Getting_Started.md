@@ -1,0 +1,1 @@
+At the moment we have not completed any Magento 2.0 extensions. We should begin to release MAgento 2.0 extensions in the summer of 2016.

@@ -14,7 +14,7 @@
         "theme": "protocol",
         "breadcrumbs": true,
         "breadcrumb_separator": " | ",
-        "toggle_code": true,
+        "toggle_code": false,
         "date_modified": true,
         "float": true,
 

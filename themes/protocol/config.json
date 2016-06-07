@@ -1,6 +1,7 @@
 {
     "favicon": "<theme_url>img/favicon.png",
     "css": [
+    	"<theme_url>css/theme.css",
     	"https://merchantprotocol.com/wp-content/themes/protocol/assets/plugins/bootstrap/css/bootstrap.min.css",
     	"https://merchantprotocol.com/wp-content/themes/protocol/assets/css/essentials.css",
     	"https://merchantprotocol.com/wp-content/themes/protocol/assets/css/layout.css",
