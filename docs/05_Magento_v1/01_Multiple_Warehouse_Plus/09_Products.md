@@ -16,7 +16,7 @@ This feature lets you quickly find any individual item in any of your warehouses
 In administrator panel: Catalog -> Manage Product -> Edit -> Shelf Information
 
 
-Just click Add Shelf and indicate where in the warehouse the product can be found.
+Just click "Add Shelf" and indicate where in the warehouse the product can be found.
 
  
 ####  rice Adjustment
@@ -27,4 +27,4 @@ Admin panel: Catalog -> Manage Product -> Edit -> Prices -> Price Adjustment
 
  
 
-In the column Apply you need to select discount percentage (Percent) or fixed amount (Fixed). In the column Discount Amount, type the value that you want.
+In the column "Apply" you need to select the discount percentage (Percent) or the fixed amount (Fixed). In the column Discount Amount, type the value that you want.
