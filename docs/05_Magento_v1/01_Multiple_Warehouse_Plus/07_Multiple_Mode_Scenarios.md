@@ -1,10 +1,10 @@
-In the give article we will explore some complex scenarios for Multiple Warehouse Mode Options.
+In the given article we will explore some complex scenarios for Multiple Warehouse Mode Options.
 
-Throughout our article we’ll be referring to initial data and the tables below.
+Throughout this article, we’ll be referring to the initial data and tables.
 
 Initial data:
 
-Have a client John Doe from Colby, Kansas who wishes to purchase products A and B in your webshop. In turn, you gave four warehouses at your disposal: Denver, Kansas City, New York and California.
+We have a client John Doe from Colby, Kansas who wishes to purchase products A and B in your webshop. In turn, you have four warehouses at your disposal: Denver, Kansas City, New York and California.
 
 Let’s represent the initial data in tabular form:
 
@@ -56,7 +56,7 @@ $24 | Kansas City | Denver
 
 **Table 5.6. Results for the scenario 1**
 
-Since Force No Backorders for Cart is set to No and Force No Backorders for Cart Item is set to No, the item A will be delivered from the Kansas City warehouse, despite the fact that the item A quantity at this depot (available quantity: 8) doesn’t satisfy the required conditions (required quantity: 10). The item B order will be fulfilled from the warehouse in Denver (available quantity: 10; required quantity 8).
+Since "Force No Backorders for Cart" is set to No and Force No Backorders for Cart Item is set to No, the item A will be delivered from the Kansas City warehouse, despite the fact that the item A quantity at this depot (available quantity: 8) doesn’t satisfy the required conditions (required quantity: 10). The item B order will be fulfilled from the warehouse in Denver (available quantity: 10; required quantity 8).
 
 #### Scenario 2
 
@@ -70,9 +70,9 @@ $29 | California | California
 
 **Table 5.7. Results for the scenario 2**
 
-Force No Backorders for Cart implies that the order will be fulfilled from a single warehouse that has the required quantity of the items (A and B) in stock. In our case, the only two warehouses the California (item A quantity: 15, required quantity: 10; item B quantity: 35, required quantity: 8; cart price: $29) and the New York (itemA quantity: 20, required quantity: 10; item B quantity: 40, required quantity: 8; cart price: 30). If Split Order is set to No Multi-Warehouse will generate a single order for both items.
+"Force No Backorders for Cart" implies that the order will be fulfilled from a single warehouse that has the required quantity of the items (A and B) in stock. In our case, the only two warehouses, California (item A quantity: 15, required quantity: 10; item B quantity: 35, required quantity: 8; cart price: $29) and New York (itemA quantity: 20, required quantity: 10; item B quantity: 40, required quantity: 8; cart price: 30). If Split Order is set to No Multi-Warehouse will generate a single order for both items.
 
-Note: In Force No Backorders for Cart case, no matter if Split Order is Yes or No, the system still won’t split the order.
+Note: In Force No Backorders for Cart case, no matter if the Split Order is Yes or No, the system still won’t split the order.
 
 #### Scenario 3
 
@@ -86,7 +86,7 @@ $25 | New York | Denver
 
 **Table 5.8. Results for the scenario 3**
 
-Lets suppose Force No Backorders for Cart Item is set to Yes. In this case the system will offer the products (A and B) from multiple warehouses: the item A from the New York warehouse (the item A available quantity: 20; required quantity: 10) and the item B from the Denver (the item B available quantity: 10, required quantity: 8). Herewith, the cart price is $25. That will be the optimal solution for the scenario 3. If Split Order is Yes. The order will be divided into two separate orders for each warehouse accordingly.
+Lets suppose Force No Backorders for Cart Item is set to Yes. In this case, the system will offer the products (A and B) from multiple warehouses: the item A from the New York warehouse (the item A available quantity: 20; required quantity: 10) and the item B from Denver (the item B available quantity: 10, required quantity: 8). Therefore, the cart price is $25. That will be the optimal solution for scenario 3. If the Split Order is Yes, the order will be divided into two separate orders for each warehouse accordingly.
 
 #### Scenario 4
 
