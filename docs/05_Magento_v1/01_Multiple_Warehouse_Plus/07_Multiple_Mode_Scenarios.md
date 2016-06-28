@@ -1,4 +1,4 @@
-In the given article we will explore some complex scenarios for Multiple Warehouse Mode Options.
+In the given article, we will explore some complex scenarios for Multiple Warehouse Mode Options.
 
 Throughout this article, we’ll be referring to the initial data and tables.
 
