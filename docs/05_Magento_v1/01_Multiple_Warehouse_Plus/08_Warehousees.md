@@ -42,7 +42,7 @@ To add more delivery methods, follow this: Admin Panel: System -> Configuration 
  
 #### Areas
 
-This tab appears when you set the following configuration options: Admin panel: System -> Configuration -> Catalog -> Warehouses -> Mode -> Single -> Delivery Method -> Assigned Areas -> Save Config. Some of the information in this table is similar to that contained in the Origin table. The difference is that the system uses these data (Areas table data ) to assign a customer to the warehouse.
+This tab appears when you set the following configuration options: Admin panel: System -> Configuration -> Catalog -> Warehouses -> Mode -> Single -> Delivery Method -> Assigned Areas -> Save Config. Some of the information in this table is similar to that contained in the Origin table. The difference is that the system uses this data (Areas table data ) to assign a customer to the warehouse.
 
  
 #### Products
@@ -70,6 +70,6 @@ The same, but with regards to shipment.
 The same, but with regards to credit memos.
 
 
-To add a new warehouse, back to warehouses list, click Add Warehouse button, enter your new warehouse data and click Save.
+To add a new warehouse, click the Add Warehouse button, enter your new warehouse data and click Save.
 
 Admin panel: Catalog -> Manage Warehouses -> Add Warehouse
