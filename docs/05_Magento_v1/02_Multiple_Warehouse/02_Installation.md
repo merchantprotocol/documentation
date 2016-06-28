@@ -1,4 +1,4 @@
-First of all we would like to suggest that you keep a development copy of the live installation for the new and updated extensions. Follow the steps listed below:
+First of all, we would like to suggest that you keep a development copy of the live installation for the new and updated extensions. Follow the steps listed below:
 
 1. Make sure that your system corresponds to the Magento requirements. Additionally, the mbstring PHP extension is required for the geolocation function.
 
