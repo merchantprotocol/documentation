@@ -3,9 +3,9 @@
  - [Demo It](http://demo.merchantprotocol.com/M1-warehouse-plus/)
  - [Forum: Talk About It](https://merchantprotocol.com/forums/forum/magento-plugin-forum/multiple-warehouse-inventory-management-plus-pricing/)
 
-Expanding your business to new horizons, you will certainly encounter the problem of how to handle multiple warehouses in Magento. This is also true when you have already two or more store houses. Magento lets you only ship items from a single storage warehouse. Hence you can’t manage your multiple warehouses globally.
+When expanding your business, you will be faced with the problem of multiple Magento® warehouses. Magento lets you ship items from a single storage warehouse, not even giving the option to manage multiple warehouses gloablly.
 
-We offer you our solution. InnoExts implements Multi-Warehouse with improved functionalities, providing you with more options and more features. This irreplaceable tool extends the capabilities of your multiple warehouses management, covering most of your needs.
+We offer the solution to this problem. Merchant Protocol implements a Multi-Warehouse with improved functionalities, providing you with more options and features. This incomparable tool extends the capabilities of your multiple warehouses management, giving you the agility you need.
 Features List
 1. Multiple Warehouse Support
 2. Flexible Configuration Settings
@@ -54,7 +54,7 @@ Features List
 
  - Prioritize your warehouses in order to offer products from warehouses in accordance with their priority status
  - Keep track of product quantity on warehouse basis
- - Hide warehouse information from the public optionally
+ - Option to hide warehouse information from the public 
 
 8. Customer Locator
 
@@ -62,7 +62,7 @@ Features List
  - Allow a customer to modify a location (Region / State, ZIP / Postal Code, City)
  - Apply default shipping address optionally
  - Apply default location defined in settings
- - Customize the Your Location box (hide not required fields)
+ - Customize Your Location box (Don't hide required fields)
  - Select from address book
 
 9. Customer Experience
@@ -71,8 +71,8 @@ Features List
 
  - Assign a customer to a specific warehouse
  - Assign a customer to a specific warehouse by areas / zones accordingly to his / her place of residence
- - Assign a customer to the nearest warehouse accordingly to his / her place of residence
+ - Assign a customer to the nearest warehouse according to his / her place of residence
  - Assign a website / store / store view to a certain warehouse
  
 
-Use all the power of this Magento extension to organize your stock and multi depot according to your preferences. With Multi-Warehouse you will be able to solve a wide range of tasks, taking your inventory management to a new level and improving your warehouses performance. Enjoy all the advantages of dealing with our powerful module. Above is a list of articles that will give you the full details about Multi-Warehouse.
+Use all the power of this Magento extension to organize your stock and multi depot according to your preferences. With Multi-Warehouse you will be able to solve a wide range of tasks, taking your inventory management to a new level and improving your warehouses performance. Enjoy all the advantages of dealing with our powerful module. Above is a list of articles that will give you the full details about the Multi-Warehouse plugin.
