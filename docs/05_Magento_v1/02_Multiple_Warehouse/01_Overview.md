@@ -3,8 +3,8 @@
  - [Demo It](http://demo.merchantprotocol.com/M1-warehouse)
  - [Forum: Talk About It](hhttps://merchantprotocol.com/forums/forum/magento-plugin-forum/multiple-warehouse-inventory-management/)
 
-Expanding your business to new horizons, you will certainly encounter the problem of how to handle multiple warehouses in Magento. This is also true when you have already two or more store houses. Magento lets you only ship items from a single storage warehouse. Hence you can’t manage your multiple warehouses globally.
+When expanding your business to new horizons, you will most likely encounter the problem handling multiple Magento® warehouses. It can also pose a problem when you already have two or more store houses. Magento only let's you ship items from a single storage warehouse. Therefore, you can’t manage your multiple global warehouses.
 
-We offer you our solution. Merchant Protocol implements Multi-Warehouse with improved functionalities, providing you with more options and more features. This irreplaceable tool extends the capabilities of your multiple warehouses management, covering most of your needs.
+We offer you our solution. Merchant Protocol implements the Multi-Warehouse extension with improved functionalities, providing you with more options and features. This irreplaceable tool extends the capabilities of your multiple warehouses management, covering most of your needs.
 
-Use all the power of this Magento extension to organize your stock and multi depot according to your preferences. With Multi-Warehouse you will be able to solve a wide range of tasks, taking your inventory management to a new level and improving your warehouses performance. Enjoy all the advantages of dealing with our powerful module. Above is a list of articles that will give you the full details about Multi-Warehouse.
+Use the power of this Magento extension to organize your stock and multi-depot. You'll be able to solve a wide range of tasks, including inventory management and improving warehouses performance. Enjoy all the advantages of dealing with our powerful module. 
