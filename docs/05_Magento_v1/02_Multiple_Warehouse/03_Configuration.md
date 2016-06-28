@@ -43,4 +43,4 @@ A seller, at his discretion, may allow customers to see the warehouse informatio
 
 6. Show Warehouse Description
 
-You can write a description about your warehouses and share this information with customers. Select this option if you want your customer to view the description.The Warehouse Information option must be enabled to make the Show Warehouse Description visible. 
+You can write a description about your warehouses and share this information with customers. Select this option if you want your customer to view the description. The Warehouse Information option must be enabled to make the Show Warehouse Description visible. 
