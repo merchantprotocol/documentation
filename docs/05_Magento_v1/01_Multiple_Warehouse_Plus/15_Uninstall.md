@@ -1,6 +1,6 @@
-1. Make sure that PHP compilation function is disabled. This procedure was described in the installation topic (see 2nd step).
+1. Make sure that the PHP compilation function is disabled. This procedure was described in the installation topic (see 2nd step).
 
-2. Make sure that files and database additional caching tools are disabled (e.g. APC cache).
+2. Make sure that the files and database and additional caching tools are disabled (e.g. APC cache).
 
 3. Back up Magento files and database to be able to revert changes in a couple of minutes in case of possible problems.
 
