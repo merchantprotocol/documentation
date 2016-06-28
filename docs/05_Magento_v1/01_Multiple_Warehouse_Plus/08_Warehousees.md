@@ -2,14 +2,14 @@ In administrator panel: Catalog -> Manage Warehouses
 
 Once you have followed the steps above, you will receive the list of all your warehouses with some data about them, such as code, title, origin country, origin region / state, origin postal code, origin city.
 
-Select the warehouse, you want to edit and click Edit link.
+Select the warehouse you want to edit and click Edit link.
 
-In these tabs you can edit a particular warehouse data.
+In these tabs, you can edit a particular warehouse.
 
 ![Figure 6.1. Tabs for editing](Warehouse_Figure_6_1.png)
 
 
-It will look like this in your screen:
+It will look like this on your screen:
 
 #### General
 
@@ -18,7 +18,7 @@ In this tab you can edit / add the title and the code of a warehouse. Also, you 
  
 #### Contact
 
-This tab contains the following fields: Notify, Name, Email. The system will use these data to inform you about new orders. Enter your name and email and place a tick in the box Notify. Now you will always get an email notification every time a new order is placed. (Regarding the specific warehouse).
+This tab contains the following fields: Notify, Name, Email. The system will use this data to inform you about new orders. Enter your name and email and place a tick in the box Notify. Now you will always get an email notification every time a new order is placed. (Regarding the specific warehouse).
 
  
 #### Origin
@@ -47,7 +47,7 @@ This tab appears when you set the following configuration options: Admin panel: 
  
 #### Products
 
-The detailed list of the products, stocked in the specific warehouse. You can use this tab to edit the products details or add new products.
+The detailed list of the products are stocked in the specific warehouse. You can use this tab to edit the product details or add new products.
 
  
 #### Orders
