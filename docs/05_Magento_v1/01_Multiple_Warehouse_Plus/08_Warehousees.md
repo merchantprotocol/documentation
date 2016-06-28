@@ -70,6 +70,6 @@ The same, but with regards to shipment.
 The same, but with regards to credit memos.
 
 
-To add a new warehouse, click the Add Warehouse button, enter your new warehouse data and click Save.
+To add a new warehouse, click the "Add Warehouse" button, enter your new warehouse data and click Save.
 
 Admin panel: Catalog -> Manage Warehouses -> Add Warehouse
