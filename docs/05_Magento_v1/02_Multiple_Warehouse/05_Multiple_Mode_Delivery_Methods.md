@@ -1,4 +1,4 @@
-In previous articles we have considered: Main Options and Single Mode Options of the Multi-Warehouse Magento module. This article deals with Multiple Mode Options.
+In previous articles we have considered: Main Options and Single Mode Options for the Multi-Warehouse Magento module. This article deals with the Multiple Mode Options.
 
 ![System - Configuration - Catalog - Warehouses - Multiple Mode Options](System_Configuration_Catalog_Warehouses_MultipleModeOptions.png)
 
@@ -17,15 +17,15 @@ In turn,
 
  
 
-For convenience, this article will be split into two parts. The first part is dedicated to Delivery Method.
+For convenience, this article will be split into two parts. The first part is dedicated to the Delivery Method.
 
 Initial data:
 
-The customer John Doe from Colby (Kansas) wants to buy two products: Item A and Item B. You have two warehouses, one is Colorado and another one is Kansas.
+The customer John Doe from Colby (Kansas) wants to buy two products: Item A and Item B. You have two warehouses, one is in Colorado and the other in Kansas.
 
 #### Lowest Shipping
 
-The system checks the items shipping prices for each warehouses combination and suggests the customer the products from the warehouses combination with the lowest shipping price. Lets assume each product shipping price is static for each warehouse and doesn’t vary depending on warehouses combination for products.
+The system checks the item's shipping prices for each warehouse and suggests the combination that gives the lowest shipping cost. Let's assume each product's shipping price is static for each warehouse and doesn’t vary.
 
  
 Warehouse |	Item A |	Item B
@@ -45,11 +45,11 @@ Item A: $1.50 (Kansas) |	$1.50 + $1.00 = $2.50 |	$1.50 + $1.50 = $3.00
 
  
 
-In this instance, John Doe will get Item A and Item B in at the prices of the Colorado warehouse. If, for example, the Item B shipping price in the Kansas were $0.50, the system would suggest the Item A from the Colorado and the Item B from the Kansas.
+In this instance, John Doe will get Item A and Item B at the prices of the Colorado warehouse. If, for example, Item B's shipping price in Kansas were $0.50, the system would suggest the Item A from the Colorado and the Item B from the Kansas.
 
 #### Lowest Tax
 
-If you select this delivery method option, Multi-Warehouse will set warehouses on the lowest tax basis.
+If you select this delivery method option, Multi-Warehouse will set warehouses to their lowest tax basis.
 
  
 Warehouse |	Item A |	Item B
@@ -68,11 +68,11 @@ Item A: $1.00 (Kansas) |	$1.00 + $2.00 = $3.00 |	$1.00 + $1.00 = $2.00
 **Table 6. Lowest Tax – Summary Taxes**
 
 
-In this case, the order will be shipped from the Kansas.
+In this case, the order will be shipped from Kansas.
 
 ##### Lowest Subtotal
 
-You may sell the same product at different prices depending on the warehouse location. In the instance below you offer discounts on the Item A and the Item B for the warehouses Colorado and Kansas.
+You may sell the same product at different prices depending on the warehouse location. In the example below, you're offering discounts on Item A and Item B for the Colorado and Kansas warehouses.
 
  
 Warehouse | Item A | Item B
@@ -100,7 +100,7 @@ In this case, the system will offer:
 
 #### Lowest Grand Total
 
-The system selects products from warehouses by the lowest cart price. There are a number of factors that impact the total (sale) price of a product. Amongst them: tax, shipping price and discount. Hence, each product has individual final price according to the warehouse which it is stored in.
+The system selects products from warehouses by the lowest cart price. There are a number of factors that impact the total sale price of a product. Amongst them: tax, shipping price and discount. Each product has an individual final price according to the warehouse win hich it is stored.
 
  
 Warehouse	 | Item A	| Item B
@@ -112,7 +112,7 @@ Kansas | Price	$10.00 Tax	$1.00 Discount	$1.00 Shipping	$1.50 Final Price	$11.50
 
  
 
-Multi-Warehouse by InnoExts calculates all the factors and suggests the optimal solution. In this example that’ll be the lowest cart price (sum price of items A and B).
+Multi-Warehouse by InnoExts calculates all the factors and suggests the optimal solution. In this example, that will be the lowest cart price (sum price of items A and B).
 
  
 Items | Item B: $12.00 (Colorado) |	Item B: $12.50 (Kansas)
@@ -123,29 +123,29 @@ Item A: $11.50 (Kansas) |	$11.50 + $12.00 = $23.50 |	$11.50 + $12.50 = $24.00
 **Table 10. Lowest Grand Total – Summary Prices**
 
  
-As you can see in the Table 10, the lowest cart price is $23.50. Thus the item A will be offered from the Kansas and the item B – from the Colorado.
+As you can see in Table 10, the lowest cart price is $23.50. Thus, item A will be shipped from the Kansas warehouse and item B from Colorado.
 
 #### Priority
 
-You have multiple warehouses. One of them may be the main (Colorado) and the rest are additional (Kansas, New York, California).
+You have multiple warehouses, the main warehouse could be in Colorado and the rest in states such as Kansas, New York and  California.
 
-In administrator panel follow: Catalog -> Manage Warehouses.
+In the administrator panel follow: Catalog -> Manage Warehouses.
 
 ![Multiple Warehouse – Manage Warehouses](multiple-warehouse-warehouse-manage-700x217.png)
 
 
-The smallest number means the highest priority. In the screenshot above we can see the following warehouse priority:
+The smallest number means the highest priority. In the screenshot above, we can see the following warehouse priority:
 
 1. Colorado
 1. Kansas
 1. New York
 1. California
 
-The Priority option lets you offer the customer (John Doe) the products (Item A and Item B) from the warehouses in order of their priorities, starting with the highest priority warehouse first. If one of the products is out of stock (Colorado), the system will offer this item from another warehouse (Kansas) according to priority and so on.
+The Priority option lets you offer the customer (John Doe) the products (Item A and Item B) from the warehouses in order of priority, starting with the highest priority warehouse first. If one of the products is out of stock (Colorado), the system will offer this item from another warehouse (Kansas) according to priority and so on.
 
 #### Manual Selection
 
-You can give the possibility to your visitors to select a warehouse for each product individually.
+You can allow visitors to select a warehouse for each product individually.
 
 ![Multiple Warehouse - Cart - Multiple Mode - Manual Selection](multiple-warehouse-cart-multiple-mode-manual-selection-700x398.png)
 
