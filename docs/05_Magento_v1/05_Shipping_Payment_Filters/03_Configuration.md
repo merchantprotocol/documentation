@@ -1,4 +1,4 @@
-In admin panel navigate to: System -> Configuration -> Zones -> Zones
+In the admin panel, navigate to: System -> Configuration -> Zones -> Zones
 
 ![Zones Manager - Configuration](zone-configuration-700x258.png) 
 
@@ -16,7 +16,7 @@ Here you can enable / disable module functions globally. This option has a highe
 
 The minimum order amount for all zones.
 
-Note: Minimum order amount should be enabled in the system in order to get this function into effect: System -> Configuration -> Sales -> Sales -> Minimum Order Amount
+Note: Minimum order amount should be enabled in the system in order to get this function: System -> Configuration -> Sales -> Sales -> Minimum Order Amount
 
 ### Catalog
 
@@ -30,11 +30,11 @@ The product category filter can be enabled / disabled here.
 
 #### Product Filter
 
-Turn product filter on / off.
+Turn the product filter on / off.
 
 #### Zone Price
 
-This option is responsible for zone specific prices activation: compound prices, compound special prices, tier prices, catalog price rules compound discount amounts.
+This option is responsible for zone specific price activation: compound prices, compound special prices, tier prices, catalog price rules compound discount amounts.
 
 ### Currency
 
@@ -42,7 +42,7 @@ This option is responsible for zone specific prices activation: compound prices,
 
 #### Currency Filter
 
-Enable / disable currencies filter here.
+Enable / disable currency filter here.
 
 #### Default Currency
 
@@ -54,7 +54,7 @@ Allow default currency here.
 
 #### Store Filter
 
-Enable / disable stores filter here.
+Enable / disable store filter here.
 
 #### Default Store
 
@@ -62,7 +62,7 @@ Allow default store here.
 
 #### Default Redirect URL
 
-The default redirect URL in case if a store is forbidden for a visitor.
+The default redirect URL is forbidden for a visitor.
 
 ### Payment
 
