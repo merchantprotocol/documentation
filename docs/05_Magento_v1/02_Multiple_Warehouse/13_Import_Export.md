@@ -1,12 +1,12 @@
-Multi-Warehouse extends Magento Dataflow module in order to handle product stocks importing / exporting for each warehouse separately.
+Multi-Warehouse extends the Magento Dataflow module in order to handle product stock importing / exporting for each warehouse individually.
 
-You will need to create separated advanced profiles to import / export product stocks for each warehouse. Lets suppose we need profiles for Kansas warehouse. Kansas identifier equals to 2.
+You will need to create separated advanced profiles to import / export product stocks for each warehouse. Let's suppose we need profiles for the Kansas warehouse. Kansas' identifier equals 2.
 
-In administrator panel: System -> Import/Export -> Dataflow – Advanced Profiles.
+In the administrator panel: System -> Import/Export -> Dataflow – Advanced Profiles.
 
-Enter the next data for profile:
+Enter the next data for the profile:
 
-Profile Name is Export Kansas Product Stocks
+The Profile Name is Export Kansas Product Stocks
 
 Actions XML
 
@@ -38,9 +38,9 @@ Actions XML
         <var name="filename"><![CDATA[export_kansas_product_stocks.csv]]></var>
     </action>
 
-Importing profile may look like:
+Importing the profile may look like this:
 
-Profile Name is Import Kansas Product Stocks
+The Profile Name is Import Kansas Product Stocks
 
 Actions XML
 
