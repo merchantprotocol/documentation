@@ -1,4 +1,4 @@
-In administrator panel: Promotions -> Catalog Price Rules
+In the administrator panel: Promotions -> Catalog Price Rules
 
 The Zones Manager adds more flexibility to the catalog price rules function. It allows you to enable / disable the rule for specific zones and to set a discount amount for each zone independently. Click edit rule.
 
