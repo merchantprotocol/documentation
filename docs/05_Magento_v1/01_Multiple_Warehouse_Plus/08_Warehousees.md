@@ -18,7 +18,7 @@ In this tab you can edit / add the title and the code of a warehouse. Also, you 
  
 #### Contact
 
-This tab contains the following fields: Notify, Name, Email. The system will use this data to inform you about new orders. Enter your name and email and place a tick in the box Notify. Now you will always get an email notification every time a new order is placed. (Regarding the specific warehouse).
+This tab contains the following fields: Notify, Name, Email. The system will use this data to inform you about new orders. Enter your name and email and place a tick in the box "Notify". Now you will always get an email notification every time a new order is placed. (Regarding the specific warehouse).
 
  
 #### Origin
