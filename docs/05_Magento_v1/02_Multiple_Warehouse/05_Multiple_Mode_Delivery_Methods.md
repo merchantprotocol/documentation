@@ -100,7 +100,7 @@ In this case, the system will offer:
 
 #### Lowest Grand Total
 
-The system selects products from warehouses by the lowest cart price. There are a number of factors that impact the total sale price of a product. Amongst them: tax, shipping price and discount. Each product has an individual final price according to the warehouse win hich it is stored.
+The system selects products from warehouses by the lowest cart price. There are a number of factors that impact the total sale price of a product. Amongst them: tax, shipping price and discount. Each product has an individual final price according to the warehouse in which it is stored.
 
  
 Warehouse	 | Item A	| Item B
@@ -112,7 +112,7 @@ Kansas | Price	$10.00 Tax	$1.00 Discount	$1.00 Shipping	$1.50 Final Price	$11.50
 
  
 
-Multi-Warehouse by InnoExts calculates all the factors and suggests the optimal solution. In this example, that will be the lowest cart price (sum price of items A and B).
+This Multi-Warehouse extension calculates all the factors and suggests the optimal solution. In this example, that will be the lowest cart price (sum price of items A and B).
 
  
 Items | Item B: $12.00 (Colorado) |	Item B: $12.50 (Kansas)
