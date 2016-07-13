@@ -35,7 +35,7 @@ California | 	Sacramento | 	California	 | 95866 | 	United States
  
 #### Assigned Areas
 
-If this option is enabled, then the "Areas" tab comes visible for a warehouse editor. You assign a customer to a warehouse by area (region, state, etc). In this case that will be the Kansas, since this warehouse is located in the customer’s state. The system tracks the customer’s location using Customer Locator feature.
+If this option is enabled, then the "Areas" tab becomes visible for a warehouse editor. You assign a customer to a warehouse by area (region, state, etc). In this case, that would be Kansas, since this warehouse is located in the customer’s state. The system tracks the customer’s location using the Customer Locator feature.
 
 #### Nearest
 
@@ -43,7 +43,7 @@ Use this option to assign a customer to the closest warehouse. In this case, the
 
 #### Assigned Stores
 
-As you know, each website is a collection of store views that share the same customer,order information and shopping cart. This option may be useful if you have multiple store views and want to map store views to warehouses. The "Stores" tab is available for a warehouse editor if this method is active. This way a customer will be assigned to a warehouse according to the current store view.
+As you know, each website is a collection of store views that share the same customer, order information and shopping cart. This option may be useful if you have multiple store views and want to map store views to warehouses. The "Stores" tab is available for a warehouse editor if this method is active. This way a customer will be assigned to a warehouse according to the current store view.
 
 #### Manual Selection
 
