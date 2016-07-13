@@ -18,7 +18,7 @@ In this tab you can edit / add the title and the code of a warehouse. Also, you 
  
 #### Contact
 
-This tab contains the following fields: Notify, Name, Email. The system will use these data to inform you about new orders. Enter your name and email and place a tick in the box Notify. Now you will always get an email notification every time a new order is placed. (Regarding the specific warehouse).
+This tab contains the following fields: Notify, Name, Email. The system will use this data to inform you about new orders. Enter your name and email and place a tick in the box Notify. Now you will always get an email notification every time a new order is placed. (Regarding the specific warehouse).
 
  
 #### Origin
@@ -30,7 +30,7 @@ Information on the warehouse location (country, region / state, zip / postal cod
 
 This tab appears when you set the following configuration options: Admin panel: System -> Configuration -> Catalog -> Warehouses -> Mode -> Single -> Delivery Method -> Assigned Stores -> Save Config.
 
-The Stores option helps you to create a relation between a warehouse and a website (store or store view).
+The "Stores" option helps you to create a relationship between a warehouse and a website (store or store view).
 
  
 #### Shipping Methods
