@@ -16,15 +16,15 @@ with
 
 3. Make sure that the files and database caching tools are disabled (e.g. APC cache).
 
-4. Back up the Magento files and database to be able to revert changes in a couple of minutes in case of possible problems.
+4. Back up the Magento files and database to be able to revert changes in a couple of minutes in case of problems.
 
 5. Enable Magento error logs: System > Configuration > Advanced > Developer > Log Settings, Set Enabled to Yes. You can find errors information in files: var/log/system.log and var/log/exception.log (the file paths are related to the document root).
 
 6. Extract the extension and upload the files into the document root. Double check that all files were uploaded successfully into the correct directory.
 
-7. Navigate to System > Cache Management. Press Flush Cache Storage button.
+7. Navigate to System > Cache Management. Press the Flush Cache Storage button.
 
-8. If the installer fails during the cache flushing then let us know the rror messages from the logs.
+8. If the installer fails during the cache flushing, let us know the error messages from the logs.
 
 9. Check if the extension is recognized by Magento: System > Configuration > Advanced > Advanced. The module should be listed there.
 
@@ -42,4 +42,4 @@ Note, the conflict resolving service isn’t included in the support package. Pl
 
 You made it!
 
-Please don’t hesitate to contact us if you met troubles during the installation process.
+Please don’t hesitate to contact us if you experience troubles during the installation process.
