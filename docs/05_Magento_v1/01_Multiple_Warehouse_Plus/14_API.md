@@ -1,4 +1,4 @@
-On this page we will describe how to manage product stocks for each warehouse with SOAP API remotely. You will need an API user with approprite permissions.
+On this page, we will describe how to manage product stocks for each warehouse with the SOAP API remotely. You will need an API user with approprite permissions.
 
 In administrator panel: System -> Web Services -> Roles
 
@@ -8,7 +8,7 @@ Let's create an inventory manager role here. Enter the next data:
  - Resource Access – Custom
  - Resources – check Catalog Inventory
 
-Save role and then type: System -> Web Services -> Users
+Save the role and then type: System -> Web Services -> Users
 
 Users should be created here:
 
@@ -19,7 +19,7 @@ Users should be created here:
  - API Key – multiwarehouse1
  - User Role – Warehouse Manager
 
-Save the user and it's done.
+Save the user and it's complete.
 
  
 #### List Product Stocks
@@ -93,7 +93,7 @@ Save the next php script, set variables, correct according to your needs and run
 	
 #### List Product Stocks V2
 
-Save the next php script, set variables, correct according to your needs and run it: 
+Save the next php script, set variables, correct it according to your needs and run it: 
 
 	<?php
 	# API URL. Replace domain name with yours
