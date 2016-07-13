@@ -4,7 +4,7 @@ Throughout this article, we’ll be referring to the initial data and tables.
 
 Initial data:
 
-We have a client John Doe from Colby, Kansas who wishes to purchase products A and B in your webshop. In turn, you have four warehouses at your disposal: Denver, Kansas City, New York and California.
+We have a client, John Doe from Colby, Kansas who wishes to purchase products A and B in your webshop. In turn, you have four warehouses at your disposal: Denver, Kansas City, New York and California.
 
 Let’s represent the initial data in tabular form:
 
@@ -70,7 +70,7 @@ $29 | California | California
 
 **Table 5.7. Results for the scenario 2**
 
-"Force No Backorders for Cart" implies that the order will be fulfilled from a single warehouse that has the required quantity of the items (A and B) in stock. In our case, the only two warehouses, California (item A quantity: 15, required quantity: 10; item B quantity: 35, required quantity: 8; cart price: $29) and New York (itemA quantity: 20, required quantity: 10; item B quantity: 40, required quantity: 8; cart price: 30). If Split Order is set to No Multi-Warehouse will generate a single order for both items.
+"Force No Backorders for Cart" implies that the order will be fulfilled from a single warehouse that has the required quantity of the items (A and B) in stock. In our case, the only two warehouses, California (item A quantity: 15, required quantity: 10; item B quantity: 35, required quantity: 8; cart price: $29) and New York (item A quantity: 20, required quantity: 10; item B quantity: 40, required quantity: 8; cart price: 30). If the Split Order is set to No, the Multi-Warehouse will generate a single order for both items.
 
 Note: In Force No Backorders for Cart case, no matter if the Split Order is Yes or No, the system still won’t split the order.
 
@@ -99,7 +99,7 @@ $29 | California | California
 
 **Table 5.9. Results for the scenario 4**
  
-Note: In this case, no matter if Force No Backorders for Cart Item is Yes or Force No Backorders for Cart Item is No, the order still will be delivered from a single warehouse.
+Note: In this case, no matter if Force No Backorders for Cart Item is Yes or Force No Backorders for Cart Item is No, the order will still be delivered from a single warehouse.
 
 Now let’s take a brief look at the following scenarios.
 
