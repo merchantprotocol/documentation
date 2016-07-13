@@ -2,7 +2,7 @@
 
 2. Make sure that the files, database and additional caching tools are disabled (e.g. APC cache).
 
-3. Back up Magento files and database to be able to revert changes in a couple of minutes in case of problems.
+3. Back up the Magento files and database to be able to revert changes in a couple of minutes in case of problems.
 
 4. Enable Magento error logs: System > Configuration > Advanced > Developer > Log Settings, Set Enabled to Yes. You can find errors information in files: var/log/system.log and var/log/exception.log (the file paths are related to the document root).
 
