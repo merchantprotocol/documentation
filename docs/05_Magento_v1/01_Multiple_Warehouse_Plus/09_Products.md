@@ -27,4 +27,4 @@ Admin panel: Catalog -> Manage Product -> Edit -> Prices -> Price Adjustment
 
  
 
-In the column "Apply" you need to select the discount percentage or the fixed amount. In the column Discount Amount, type the value that you want.
+In the column "Apply" you need to select the discount percentage or the fixed amount. In the column "Discount Amount", type the value that you want.
