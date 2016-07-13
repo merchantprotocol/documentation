@@ -7,7 +7,7 @@ In the previous article, we used the illustration to show the block diagram in F
 
 ![Figure 1. Options Overview](multiple-warehouse-figure-1-1.png)
 
-The purpose of this paper is explain the Single Mode Options. Let’s take a look at the following schematic diagram.
+The purpose of this paper is to explain the Single Mode Options. Let’s take a look at the following schematic diagram.
 
 ![Figure 2. General Options](Fig_2_1.png)
  
@@ -36,7 +36,7 @@ California |	Sacramento |	California |	95866 |	United States
  
 #### Assigned Areas
 
-If this option is enabled, the Areas tab becomes visible to the warehouse editor. You assign a customer to a warehouse by area (region, state, etc). In this case that will be the Kansas, since this warehouse is located in the customer’s state. The system tracks the customer’s location using Customer Locator feature.
+If this option is enabled, the Areas tab becomes visible to the warehouse editor. You assign a customer to a warehouse by area (region, state, etc). In this case, that will be Kansas, since this warehouse is located in the customer’s state. The system tracks the customer’s location using Customer Locator feature.
 
 #### Nearest
 
