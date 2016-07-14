@@ -20,12 +20,12 @@ Note, you can find the list of modules that the current module depends on under 
 
 8. Run MySQL queries from the file: sql/Innoexts/Warehouse/uninstall.sql (the file path is related to the document root). If some query fails due to the database inconsistency for some reason then continue from the next query after the failed one and so on.
 
-Note, if database tables are prefixed then the file should be run instead: sql/Innoexts/Warehouse/prefixed_uninstall.sql. Replace [prefix] with your tables prefix.
+Note, if the database tables are prefixed, then the file should be run instead: sql/Innoexts/Warehouse/prefixed_uninstall.sql. Replace [prefix] with your tables prefix.
 
 9. Navigate to System > Cache Management. Press Flush Cache Storage button.
 
-10. If the cache flushing fails then let us know error messages from the logs.
+10. If the cache flushing fails, then let us know error messages from the logs.
 
-11. Check if extension isn’t listed in Magento anymore: System > Configuration > Advanced > Advanced. The module should be listed there.
+11. Check if the extension isn’t listed in Magento anymore: System > Configuration > Advanced > Advanced. The module should be listed there.
 
 12. Navigate to System > Index Management. Click Select All to select all indexes types and press Submit button.
