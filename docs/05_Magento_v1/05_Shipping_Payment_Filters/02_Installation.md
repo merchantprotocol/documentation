@@ -28,7 +28,7 @@ with
 
 10. Check if the module conflicts with any 3rd party modules previously installed on your system.
 
-Note, the conflict resolving service isn’t included into the support package. 
+Note, the conflict resolving service isn’t included in the support package. 
 
 11. Navigate to System > Index Management. Click "Select All" to select all index types and press the Submit button. If indexing fails, then you have a 3rd party module conflict. Let us know the full error message from the logs for further information.
 
