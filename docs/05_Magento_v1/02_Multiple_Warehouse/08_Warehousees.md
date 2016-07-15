@@ -42,12 +42,12 @@ To add more delivery methods, follow this: Admin Panel: System -> Configuration 
  
 #### Areas
 
-This tab appears when you set the following configuration options: Admin panel: System -> Configuration -> Catalog -> Warehouses -> Mode -> Single -> Delivery Method -> Assigned Areas -> Save Config. Some of the information in this table is similar to that contained in the Origin table. The difference is that the system uses these data (Areas table data ) to assign a customer to the warehouse.
+This tab appears when you set the following configuration options: Admin panel: System -> Configuration -> Catalog -> Warehouses -> Mode -> Single -> Delivery Method -> Assigned Areas -> Save Config. Some of the information in this table is similar to that contained in the Origin table. The difference is that the system uses this data (Areas table data ) to assign a customer to the warehouse.
 
  
 #### Products
 
-The detailed list of the products, stocked in the specific warehouse. You can use this tab to edit the products details or add new products.
+The detailed list of the products, stocked in the specific warehouse. You can use this tab to edit the product details or add new products.
 
  
 #### Orders
