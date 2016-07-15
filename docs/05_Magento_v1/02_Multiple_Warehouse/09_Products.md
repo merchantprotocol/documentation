@@ -11,7 +11,7 @@ In administrator panel: Catalog -> Manage Product -> Edit -> Inventory
  
 #### Shelf Information
 
-This feature lets you quickly find any individual item in any of your warehouses. (Which bay? Which shelf? etc).
+This feature let's you quickly find any individual item in any of your warehouses. (Which bay? Which shelf? etc).
 
 In administrator panel: Catalog -> Manage Product -> Edit -> Shelf Information
 
