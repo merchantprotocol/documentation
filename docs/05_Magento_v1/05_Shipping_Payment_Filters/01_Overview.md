@@ -26,7 +26,7 @@ The Zones Manager extension enables us to create and manage geo zones with their
 
 #### Customer Locator
 
- - Allow a customer to modify his / her location manually or select from address book
+ - Allow a customer to modify his location manually or select it from the address book
  - Apply default shipping address
  - Detect customer location by browser provided coordinates
  - Detect customer location by IP address
