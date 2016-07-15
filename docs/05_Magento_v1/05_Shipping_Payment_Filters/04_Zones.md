@@ -1,6 +1,6 @@
 In administrator panel: Zones -> Manage Zones
 
-Here you can create new customer zones by pressing the Add New Zone button or by editing existing ones by clicking the Edit link. The Default zone is created during the installation. This zone is applied in case there aren't any zones matching a visitor and it can’t be removed from the system.
+Here you can create new customer zones by pressing the Add New Zone button or by editing existing ones by clicking the Edit link. The Default zone is created during the installation. This zone is applied in case there aren't any zones matching a visitor, and it can’t be removed from the system.
 
 ![Zones Manager - Manage Zones](zone-zone-700x412.png)
  
@@ -32,7 +32,7 @@ This is the currency that is selected automatically for a customer's zone. the D
 
 #### Default Store
 
-This is the store which a customer is being redirected to initially. The value must be selected in Stores.
+This is the store which a customer is being redirected to initially. The value must be selected in "Stores".
 
 #### Default Payment Method
 
@@ -56,13 +56,13 @@ The default redirection URL is needed if a store isn’t allowed for a customer.
 
 Each zone can include a number of subzones in it for the flexibility. Each subzone can be defined as country, region, exact zip code or zip codes range.
 
-Note, region select is available for the specific countries only with regions data installed initially.
+Note, region select is available for the specific countries only with "regions data" installed initially.
 
 ### Currencies
 
 ![Zones Manager - Manage Zones - Add / Edit Zone - Currencies](zone-zone-edit-currencies-700x235.png)
 
-This is the allowed currencies list for a specific zone. The store base currency is available independently of this attribute. The currency must be enabled in the configuration initially: System -> General -> Currency Setup -> Currency Options -> Allowed Currencies.
+This is the allowed currency list for a specific zone. The store base currency is available independently of this attribute. The currency must be enabled in the configuration initially: System -> General -> Currency Setup -> Currency Options -> Allowed Currencies.
 
 ### Stores
 
