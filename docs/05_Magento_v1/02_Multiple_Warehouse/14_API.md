@@ -70,7 +70,7 @@ Save the next php script, set the variables and correct it according to your nee
 
 #### Update Product Stocks
 
-Save the next php script, set variables, correct according to your needs and run it: 
+Save the next php script, set variables, correct it according to your needs and run it: 
 
 	<?php
 	# API URL. Replace domain name with yours
