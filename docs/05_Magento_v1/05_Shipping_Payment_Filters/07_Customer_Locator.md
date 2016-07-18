@@ -19,7 +19,7 @@ If the option is enabled, then the customer will be able to enter/correct his lo
 
 If the option is enabled, then the customer default shipping address will be used as the current location. This option has the highest priority in the address determination process.
 
-#### Use Coordinates Geolocation
+#### Use Coordinate Geolocation
 
 If the option is enabled, then the customer becomes geolocated by coordinates through the Google Geocoder service. The client's browser provides coordinates if it is allowed by the customer. The coordinate's geolocation takes effect if the default shipping address isn’t set or is disabled.
 
@@ -48,7 +48,7 @@ The default visitor’s location can be defined here. Country, Region / State, Z
 
 ![Zones Manager - Customer Locator - Manual Selection](zone-customer-locator-manual-location-700x465.png)
 
-This function allows customer to change his location manually.
+This function allows the customer to change his location manually.
 
  
 ### IP Geolocation
@@ -57,9 +57,9 @@ In administrator panel: System > Configuration > Customers > IP Geolocation
 
 ![Zones Manager - Customer Locator - IP Geolocation](zone-customer-locator-ip-geolocation-700x493.png) 
 
-IP Geolocator options are placed here: Use PHP Extension, Database File. This function is based on MaxMind GeoCity database. Use PHP Extension option directs system to use built-in geoip PHP extension in the first turn. If no geoip PHP extensions is installed correctly with GeoCity database or Use PHP Extension option is set to No then function relies on the own database. The correct GeoCity database path must be entered in Database File option if no geoip PHP extension is installed properly with GeoCity database.
+The IP Geolocator options are placed here: Use PHP Extension, Database File. This function is based on the MaxMind GeoCity database. The PHP Extension option directs the system to use the built-in geoip PHP extension. If the geo-ip PHP extensions aren't installed correctly with the GeoCity database or the Use PHP Extension option, then the function relies on it's own database. The correct GeoCity database path must be entered in the Database File option if there aren't any geo-ip PHP extension installed properly with the GeoCity database.
 
-This supplementary tool allows to detect visitor’s location as soon as he / she comes to the website. The location can be either default shipping address or geolocated IP address or the default location or manualy entered by the visitor depending on needs.
+This supplementary tool allows you to detect a visitor’s location as soon as he comes to the website. The location can be either the default shipping address, geolocated IP address, default location or be manualy entered by the visitor.
 
 In administrator panel: System > Configuration > Customers > Customer Locator
 
@@ -69,14 +69,14 @@ You can see Options and Default Location sections there.
 
 **Options**
 
- - Allow to Modify – If option is enabled then customer will be able to enter / correct his / her location on the frontend side.
- - Select Default Shipping Address – If option is enabled then customer default shipping address will be used as the current location instead of geolocated IP address geolocated (if default shipping address is present).
- - Allowed Attributes – Address attributes list to display in Your Location box.
+ - Allow to Modify – If the option is enabled, the customer will be able to enter / correct his location on the frontend side.
+ - Select Default Shipping Address – If this option is enabled then the customer's default shipping address will be used as the current location instead of the geolocated IP address (if default shipping address is present).
+ - Allowed Attributes – Address attributes list to display in "Your Location" box.
  - Required Attributes – Required address attributes.
 
 **Default Address**
 
-The default visitor’s location can be defined here. Country, Region / State, Zip / Postal Code, City can be entered. The system sets visitor’s location to default if IP address geolocation failed (it is possible for small percentage of visitors).
+The default visitor’s location can be defined here. Country, Region / State, Zip / Postal Code, City can be entered. The system sets the visitor’s location to default if the IP address geolocation failed (it is possible for a small percentage of visitors).
 
 On the frontend:
 
