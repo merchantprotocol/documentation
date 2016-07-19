@@ -1,4 +1,4 @@
-Advanced Pricing makes it possible to set discounts depending on visitor address.
+Advanced Pricing makes it possible to set discounts depending on the visitor's address.
 
 In administrator panel: Catalog -> Manage Products -> Edit Product -> Zone Discounts.
 
@@ -15,7 +15,7 @@ You can manage discount zones here:
  - Amount – Enter discount value
  - Apply – Select percentage discount or fixed amount to deduct from the price
 
-Don’t forget to save product after you have finished with discount zones.
+Don’t forget to save the product after you have finished with discount zones.
 
 On the frontend:
 
