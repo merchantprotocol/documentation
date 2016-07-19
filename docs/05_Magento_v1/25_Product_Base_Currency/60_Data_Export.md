@@ -1,4 +1,4 @@
-Data exporting can be handled with the number of CLI (command line interface) scripts built-in.
+Data exporting can be handled with the number of CLI (command line interface) scripts that are built in.
 
 ### Base Currency
 
@@ -10,7 +10,7 @@ Run the script with your arguments:
 
 Note, The script path is related to the document root in the sample, but can be replaced with the absolute path (to run via cron service for example), file-path directory is always related to the document root.
 
-Run the next command to get the arguments description
+Run the next command to get the argument description
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/BaseCurrency/Export.php --help
 
@@ -31,7 +31,7 @@ Run the script with your arguments:
 
 Note, The script path is related to the document root in the sample, but can be replaced with the absolute path (to run via cron service for example), file-path directory is always related to the document root.
 
-Run the next command to get arguments description
+Run the next command to get the arguments description
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Price/Export.php --help
 
@@ -52,7 +52,7 @@ Run the script with your arguments:
 
 Note, The script path is related to the document root in the sample, but can be replaced with the absolute path (to run via cron service for example), file-path directory is always related to the document root.
 
-Run the next command to get arguments description
+Run the next command to get the arguments description
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Special/Export.php --help
 
@@ -73,7 +73,7 @@ Run the script with your arguments:
 	    --file-path /var/export/Innoexts/ProductBaseCurrency/ \
 	    --file-filename product-group-price.csv
 
-Note, The script path is related to the document root in the sample but can be replaced with the absolute path (to run via cron service for example), file-path directory is always related to the document root.
+Note, The script path is related to the document root in the sample, but can be replaced with the absolute path (to run via cron service for example), file-path directory is always related to the document root.
 
 Run the next command to get the arguments description
 
