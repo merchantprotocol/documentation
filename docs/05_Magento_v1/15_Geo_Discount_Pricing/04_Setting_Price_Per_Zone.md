@@ -1,4 +1,4 @@
-Zone Pricing can help you to set proper product prices by country / region / state / zip / postal code.
+Zone Pricing can help you set proper product prices by country / region / state / zip / postal code.
 
 In administrator panel: Catalog -> Manage Products -> Edit Product -> Zone Prices.
 
@@ -18,7 +18,7 @@ Don’t forget to press the Submit button.
 
 If you want to delete/edit the prices go to the Action column.
 
-Assume that you have provided 10 percent discount on a Product A for United States. The visitor will see product price with discount according to his / her place of residence. The visitor location can be adjusted manually with Customer Locator function.
+Assume that you have provided 10 percent discount on a Product A for United States. The visitor will see the product price with the discount according to his place of residence. The visitor's location can be adjusted manually with the Customer Locator function.
 
 ![Zone Pricing - View Products](zone-pricing-product-viewlist.png) 
 
