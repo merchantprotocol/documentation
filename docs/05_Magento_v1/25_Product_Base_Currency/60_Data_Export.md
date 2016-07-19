@@ -8,9 +8,9 @@ Run the script with your arguments:
 	    --file-path /var/export/Innoexts/ProductBaseCurrency/ \
 	    --file-filename product-base-currency.csv
 
-Note, The script path is related to the document root in the sample but can be replaced with the absolute path (to run via cron service for example), file-path directory is always related to the document root.
+Note, The script path is related to the document root in the sample, but can be replaced with the absolute path (to run via cron service for example), file-path directory is always related to the document root.
 
-Run the next command to get arguments description
+Run the next command to get the arguments description
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/BaseCurrency/Export.php --help
 
@@ -29,7 +29,7 @@ Run the script with your arguments:
 	    --file-path /var/export/Innoexts/ProductBaseCurrency/ \
 	    --file-filename product-price.csv
 
-Note, The script path is related to the document root in the sample but can be replaced with the absolute path (to run via cron service for example), file-path directory is always related to the document root.
+Note, The script path is related to the document root in the sample, but can be replaced with the absolute path (to run via cron service for example), file-path directory is always related to the document root.
 
 Run the next command to get arguments description
 
@@ -50,7 +50,7 @@ Run the script with your arguments:
 	    --file-path /var/export/Innoexts/ProductBaseCurrency/ \
 	    --file-filename product-special-price.csv
 
-Note, The script path is related to the document root in the sample but can be replaced with the absolute path (to run via cron service for example), file-path directory is always related to the document root.
+Note, The script path is related to the document root in the sample, but can be replaced with the absolute path (to run via cron service for example), file-path directory is always related to the document root.
 
 Run the next command to get arguments description
 
@@ -65,7 +65,7 @@ The output data feed var/export/Innoexts/ProductBaseCurrency/product-special-pri
  
 ### Customer Group Price
 
-Note, Group Price function is available for Magento CE 1.7.0.0+ only.
+Note, the Group Price function is available for Magento CE 1.7.0.0+ only.
 
 Run the script with your arguments:
 
@@ -75,7 +75,7 @@ Run the script with your arguments:
 
 Note, The script path is related to the document root in the sample but can be replaced with the absolute path (to run via cron service for example), file-path directory is always related to the document root.
 
-Run the next command to get arguments description
+Run the next command to get the arguments description
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Group/Export.php --help
 
@@ -95,7 +95,7 @@ Run the script with your arguments:
 
 Note, The script path is related to the document root in the sample but can be replaced with the absolute path (to run via cron service for example), file-path directory is always related to the document root.
 
-Run the next command to get arguments description
+Run the next command to get the arguments description
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Tier/Export.php --help
 
