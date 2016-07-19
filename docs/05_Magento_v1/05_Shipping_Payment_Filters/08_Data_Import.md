@@ -1,4 +1,4 @@
-Zones Manager includes built-in scripts to import compound prices, compound special prices and tier prices in a fast way.
+Our Zones Manager includes built-in scripts to import compound prices, compound special prices and tier prices in a fast way.
 
 ### Compound Price
 
