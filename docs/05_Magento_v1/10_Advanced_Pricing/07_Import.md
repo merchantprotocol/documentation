@@ -1,4 +1,4 @@
-Advanced Pricing includes built-in script to import prices in a fast way (much more faster then Dataflow function may do it).
+Advanced Pricing includes a built-in script to import prices in a fast way (much faster than the Dataflow function may do it).
 
 Run the php command with your arguments:
 
