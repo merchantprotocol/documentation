@@ -6,7 +6,7 @@
 with
 ```<active>false</active>```
 
-3. If you don’t have any InnoExts extension installed then repeat above steps for `app/etc/modules/Innoexts_CustomerLocator.xml`, `app/etc/modules/Innoexts_GeoIp.xml` and Innoexts_InnoCore.xml:
+3. If you don’t have any InnoExts extension installed, then repeat the above steps for `app/etc/modules/Innoexts_CustomerLocator.xml`, `app/etc/modules/Innoexts_GeoIp.xml` and Innoexts_InnoCore.xml:
 
 4. Run MySQL query:
 
