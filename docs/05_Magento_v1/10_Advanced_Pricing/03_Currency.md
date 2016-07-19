@@ -14,7 +14,7 @@ In administrator panel: System -> Manage Currency Rates or System -> Manage Curr
 
 Now you can set the currency rates that are beneficial (most appropriate) to you manually or by importing the rates from a service like Webservicex. Save results.
 
-So, you can choose as many currencies as you want. But if your currency list is too long you may limit it with the Currency Geo Filter extension. It will let your customer select currencies from the short list of monetary units which are common in their region.
+So, you can choose as many currencies as you want. But if your currency list is too long, you may limit it with the Currency Geo Filter extension. It will let your customer select currencies from the short list of monetary units which are common in their region.
 
 ### Price
 
@@ -26,7 +26,7 @@ In administrator panel: Catalog -> Manage Products -> Edit Product -> Prices -> 
 
 Uncheck the appropriate Default check box if you need to overwrite any currency price. If the Default checkbox is marked then the currency price will be dynamically calculated according to currency rates (default behaviour of Magento). Recalculating by function may assist you in overwriting currency prices by the desired currency. Check Recalculate by checkbox and select the primary currency you want to use for recalculation. Once the primary currency is changed, other currency prices are updated depending on rates automatically.
 
-Now when a customer comes to your store and selects currency, he will see next:
+Now when a customer comes to your store and selects currency, he will see this next:
 
 ![Currency - Price - Products](advanced-pricing-currency-price-products-700x547.png)
  
