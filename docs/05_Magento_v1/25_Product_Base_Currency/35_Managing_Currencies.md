@@ -4,7 +4,7 @@ To add or remove the currencies that a customer can select, and that you can man
 
 	System > Configuration > General > Currency Setup > Currency Options
 
-The currency options panel has a field labeled **Allowed Currencies**. This is a multi-select box that will allow you to select all of the currencies that you would like to offer on your store. Holding the control *Ctrl* key you will allow you to choose every currency that you want to offer. Holding the select key will allow you to select a range of currencies to offer.
+The currency options panel has a field labeled **Allowed Currencies**. This is a multi-select box that will allow you to select all of the currencies that you would like to offer on your store. Holding the control *Ctrl* key you'll be able to choose every currency that you want to offer. Holding the select key will allow you to select a range of currencies to offer.
 
 The Allowed Currencies multi-select box will provide you with additional currency options when working within the administrative area.
 
