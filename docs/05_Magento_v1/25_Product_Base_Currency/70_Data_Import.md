@@ -1,4 +1,4 @@
-Data importing can be handled with the number of CLI (command line interface) scripts built-in.
+The data importing can be handled with a number of CLI (command line interface) scripts built-in.
 
 ### Base Currency
 
@@ -13,15 +13,15 @@ Run the script with your arguments:
 	    --file-path /var/import/Innoexts/ProductBaseCurrency/ \
 	    --file-filename product-base-currency.csv
 
-Note, The script path is related to the document root in the sample but can be replaced with the absolute path (to run via cron service for example), file-path directory is always related to the document root.
+Note, The script path is related to the document root in the sample but can be replaced with the absolute path (to run via cron service for example), the file-path directory is always related to the document root.
 
-Omit ftp arguments to run import from local data feed:
+Omit the ftp arguments to run the import from local data feed:
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/BaseCurrency/Import.php \
 	    --file-path /var/import/Innoexts/ProductBaseCurrency/ \
 	    --file-filename product-base-currency.csv
 
-Run the next command to get arguments description
+Run the next command to get the argument description
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/BaseCurrency/Import.php --help
 
@@ -41,7 +41,7 @@ currency |	Currency code
 
 ### Price
 
-Run the script with your arguments:
+Run the script with these arguments:
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Price/Import.php \
 	    --ftp \
@@ -52,15 +52,15 @@ Run the script with your arguments:
 	    --file-path /var/import/Innoexts/ProductBaseCurrency/ \
 	    --file-filename product-price.csv
 
-Note, The script path is related to the document root in the sample but can be replaced with the absolute path (to run via cron service for example), file-path directory is always related to the document root.
+Note, The script path is related to the document root in the sample, but can be replaced with the absolute path (to run via cron service for example), the file-path directory is always related to the document root.
 
-Omit ftp arguments to run import from local data feed:
+Omit ftp arguments to run import from localfile-path data feed:
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Price/Import.php \
 	    --file-path /var/import/Innoexts/ProductBaseCurrency/ \
 	    --file-filename product-price.csv
 
-Run the next command to get arguments description
+Run the next command to get the arguments description
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Price/Import.php --help
 
@@ -91,9 +91,9 @@ Run the script with your arguments:
 	    --file-path /var/import/Innoexts/ProductBaseCurrency/ \
 	    --file-filename product-special-price.csv
 
-Note, The script path is related to the document root in the sample but can be replaced with the absolute path (to run via cron service for example), file-path directory is always related to the document root.
+Note, The script path is related to the document root in the sample, but can be replaced with the absolute path (to run via cron service for example), the file-path directory is always related to the document root.
 
-Omit ftp arguments to run import from local data feed:
+Omit the ftp arguments to run the import from local data feed:
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Special/Import.php \
 	    --file-path /var/import/Innoexts/ProductBaseCurrency/ \
@@ -119,8 +119,6 @@ price |	Price value
 
 ### Customer Group Price
 
-Note, Group Price function is available for Magento CE 1.7.0.0+ only.
-
 Run the script with your arguments:
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Group/Import.php \
@@ -132,15 +130,15 @@ Run the script with your arguments:
 	    --file-path /var/import/Innoexts/ProductBaseCurrency/ \
 	    --file-filename product-group-price.csv
 
-Note, The script path is related to the document root in the sample but can be replaced with the absolute path (to run via cron service for example), file-path directory is always related to the document root.
+Note, The script path is related to the document root in the sample, but can be replaced with the absolute path (to run via cron service for example), the file-path directory is always related to the document root.
 
-Omit ftp arguments to run import from local data feed:
+Omit the ftp arguments to run the import from the local data feed:
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Group/Import.php \
 	    --file-path /var/import/Innoexts/ProductBaseCurrency/ \
 	    --file-filename product-group-price.csv
 
-Run the next command to get arguments description
+Run the next command to get the arguments description
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Group/Import.php --help
 
@@ -161,7 +159,7 @@ price	| Price value
 
 ### Tier Price
 
-Run the script with your arguments:
+Run this script with your arguments:
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Tier/Import.php \
 	    --ftp \
@@ -172,7 +170,7 @@ Run the script with your arguments:
 	    --file-path /var/import/Innoexts/ProductBaseCurrency/ \
 	    --file-filename product-tier-price.csv
 
-Note, The script path is related to the document root in the sample but can be replaced with the absolute path (to run via cron service for example), file-path directory is always related to the document root.
+Note, The script path is related to the document root in the sample, but can be replaced with the absolute path (to run via cron service for example), the file-path directory is always related to the document root.
 
 Omit ftp arguments to run import from local data feed:
 
@@ -180,7 +178,7 @@ Omit ftp arguments to run import from local data feed:
 	    --file-path /var/import/Innoexts/ProductBaseCurrency/ \
 	    --file-filename product-tier-price.csv
 
-Run the next command to get arguments description
+Run the next command to get the arguments description
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Tier/Import.php --help
 
