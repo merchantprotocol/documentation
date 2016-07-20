@@ -1,4 +1,4 @@
-The data importing can be handled with a number of CLI (command line interface) scripts built-in.
+Data importing can be handled with a number of CLI (command line interface) scripts built-in.
 
 ### Base Currency
 
@@ -15,7 +15,7 @@ Run the script with your arguments:
 
 Note, The script path is related to the document root in the sample but can be replaced with the absolute path (to run via cron service for example), the file-path directory is always related to the document root.
 
-Omit the ftp arguments to run the import from local data feed:
+Omit the ftp arguments to run the import from the local data feed:
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/BaseCurrency/Import.php \
 	    --file-path /var/import/Innoexts/ProductBaseCurrency/ \
@@ -54,17 +54,17 @@ Run the script with these arguments:
 
 Note, The script path is related to the document root in the sample, but can be replaced with the absolute path (to run via cron service for example), the file-path directory is always related to the document root.
 
-Omit ftp arguments to run import from localfile-path data feed:
+Omit ftp arguments to run the import from the localfile-path data feed:
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Price/Import.php \
 	    --file-path /var/import/Innoexts/ProductBaseCurrency/ \
 	    --file-filename product-price.csv
 
-Run the next command to get the arguments description
+Run the next command to get the argument's description
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Price/Import.php --help
 
-The input data feed var/import/Innoexts/ProductBaseCurrency/product-price.csv should have the next format:
+The input data feed var/import/Innoexts/ProductBaseCurrency/product-price.csv should have the following format:
 
 	sku,store,price
 	"HTC Touch Diamond",,750
@@ -93,13 +93,13 @@ Run the script with your arguments:
 
 Note, The script path is related to the document root in the sample, but can be replaced with the absolute path (to run via cron service for example), the file-path directory is always related to the document root.
 
-Omit the ftp arguments to run the import from local data feed:
+Omit the ftp arguments to run the import from the local data feed:
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Special/Import.php \
 	    --file-path /var/import/Innoexts/ProductBaseCurrency/ \
 	    --file-filename product-special-price.csv
 
-Run the next command to get arguments description
+Run the next command to get the argument's description
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Special/Import.php --help
 
@@ -142,7 +142,7 @@ Run the next command to get the arguments description
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Group/Import.php --help
 
-The input data feed var/import/Innoexts/ProductBaseCurrency/product-group-price.csv should have the next format:
+The input data feed var/import/Innoexts/ProductBaseCurrency/product-group-price.csv should have the following format:
 
 	sku,all_groups,customer_group,website,price
 	"HTC Touch Diamond",,"General",,730
@@ -172,17 +172,17 @@ Run this script with your arguments:
 
 Note, The script path is related to the document root in the sample, but can be replaced with the absolute path (to run via cron service for example), the file-path directory is always related to the document root.
 
-Omit ftp arguments to run import from local data feed:
+Omit the ftp arguments to run the import from the local data feed:
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Tier/Import.php \
 	    --file-path /var/import/Innoexts/ProductBaseCurrency/ \
 	    --file-filename product-tier-price.csv
 
-Run the next command to get the arguments description
+Run the next command to get the argument's description
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Tier/Import.php --help
 
-The input data feed var/import/Innoexts/ProductBaseCurrency/product-tier-price.csv should have the next format:
+The input data feed var/import/Innoexts/ProductBaseCurrency/product-tier-price.csv should have the following format:
 
 	sku,all_groups,customer_group,website,qty,price
 	"HTC Touch Diamond",,"General",,2,725
