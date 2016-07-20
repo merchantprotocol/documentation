@@ -2,18 +2,18 @@ In administrator panel: System -> Configuration -> General -> Currency Setup -> 
 
 ![Currency Geo Filter - Configuration](currency-geo-filter-configuration.png) 
 
-You can see the set of options to control extension behaviour here.
+You can see the set of options to control the extension behaviour here.
 
 ### Enabled
 
-Enable / disable extension. The system does currencies handling by default if extension is disabled. Although Currency Geo Filter manager remains available.
+Enable / disable extension. The system manages currency handling by default if the extension is disabled. Although the Currency Geo Filter manager remains available.
 
-### Readjust Order Currency
+### Read only the Order Currency
 
-If enabled then currency will be corrected during the checkout process according to the method chosen below.
+If enabled, the currency will be corrected during the checkout process, according to the method chosen below.
 
-### Readjust Order Currency By
+### Read Order Currency 
 
-Readjust order currency method selector. Available options are: Shipping Address, Billing Address. Shipping address option means currency must be recalculated according to the shipping address entered. Billing Address makes currency dependent on billing address accordingly.
+Available options are: Shipping Address, Billing Address. Shipping address option means currency must be recalculated according to the shipping address entered. Billing Address makes currency dependent on billing address accordingly.
 
-The system allows to adjust currency within the checkout process automatically. Lets look at sample. The visitor comes form Germany. Germany has Euro currency allowed only. But the shipping address is USA. The currency will be switched to the US Dollar in this case automatically (optionally). The same option is available for billing address as well. This way the administrator has currencies advanced control.
+The system allows you to adjust the currency within the checkout process automatically. Lets look at a sample. The visitor comes form Germany. Germany has a Euro currency allowed. But the shipping address is in USA. The currency will be switched to the US Dollar in this case automatically (optionally). The same option is available for the billing address as well. This way the administrator has advanced control with currencies.
