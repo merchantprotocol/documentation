@@ -20,4 +20,4 @@
 
  - Version number: 1.0.1 Stability: Stable Compatibility: 1.4.1.1, 1.4.2, 1.5 
 
-The Currency Geo Filter Magento extension provides flexible location-based currency control. It is gives ability to split allowed store currencies by countries and accommodates visitors with currencies in desirable way. The store administrator is allowed to set the single currency or let user to choose it from the list depending on country visitor comes from (or by shipping / billing addresses optionally).
+The Currency Geo Filter Magento extension provides flexible location-based currency control. It is gives you the ability to split allowed store currencies by countries. The store administrator is allowed to set the single currency or let users choose it from the list, depending on the country the visitor came from (or by shipping / billing addresses optionally).
