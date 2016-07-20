@@ -1,6 +1,6 @@
 In administrator panel: Customers -> Customer Groups
 
-Here you can create new customer groups by pressing the Add New Customer Group button or edit existing ones by clicking the Edit link.
+Here you can create new customer groups by pressing the Add New Customer Group button or by editing existing ones with the Edit link.
 
 ![Customer Groups Manager - Manage Customer Groups](customer-group-customer-group.png)
  
@@ -20,7 +20,7 @@ Customer group tax class.
 
 ### Default Currency
 
-The currency that is coming selected automatically for a customer assigned to the customer group. Default Currency must be selected in Currencies.
+The currency that is being selected automatically for a customer assigned to the customer group. Default Currency must be selected in Currencies.
 
 ### Default Store
 
@@ -28,19 +28,19 @@ The store which a customer is being redirected to initially. The value must be s
 
 ### Default Payment Method
 
-The payment method that is selected by default for the checkout process. The value must be selected in Payment Methods.
+The payment method that is selected by default for the checkout process. The value must be selected in the Payment Methods.
 
 ### Default Shipping Method
 
-The shipping method that is selected by default for the checkout and estimate shipping functions. The value must be selected in Shipping Methods.
+The shipping method that is selected by default for the checkout and estimate shipping functions. The value must be selected in the Shipping Methods.
 
 ### Minimum Order Amount
 
-The minimum order amount for the customer group. Tick Use Config Minimum Order Amount checkbox if the value should be similar to that is set in the configuration globally or enter the custom one.
+The minimum order amount for the customer group. Tick Use Config Minimum Order Amount checkbox if the value should be similar to that which is set in the configuration globally or if it shoudl be entered manually. 
 
 ### Default Redirect URL
 
-The default redirection URL in case if a store isn’t allowed for a customer. Check Use Config Default Redirect URL to inherit the value that is set in the configuration globally.
+The default redirection URL in case a store isn’t allowed for a customer. Check Use Config Default Redirect URL to inherit the value that is set in the configuration globally.
 
 ## Currencies
 
@@ -70,12 +70,12 @@ Allowed shipping methods list for the customer group. The shipping carrier must 
 
 ![Customer Groups Manager - Manage Customer Groups - Add / Edit Customer Group - Product Categories](customer-group-customer-group-edit-product-categories.png) 
 
-Administrator is able to overwrite available product categories list depending on customer group here.
+Administrator is able to overwrite available product categorey list depending on the customer group here.
 
-Note, product category availability doesn’t affect products availability itself.
+Note, product category availability doesn’t affect the product's availability itself.
 
 ## Products
 
 ![Customer Groups Manager - Manage Customer Groups - Add / Edit Customer Group - Products](customer-group-customer-group-edit-products.png) 
 
-The list of products enabled for the customer group. The customer group can be enabled for the specific product in products manager.
+The list of products enabled for the customer group. The customer group can be enabled for the specific product in the products manager.
