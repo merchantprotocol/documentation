@@ -4,7 +4,7 @@ Use the next action XML to load all orders for the specified store.
 	    <var name="store"><![CDATA[0]]></var>
 	</action>
 
-You will need to filter orders to output in most cases. It may be done by filters variables defining. The full orders filters list is:
+In most cases, you will need to filter orders to output. It may be done by filter variable defining. The full order filters list is:
 
 Property | Description
 ----- | -----
@@ -79,6 +79,6 @@ filter/price_incl_tax/to | to load with item price including tax up to value
 filter/row_total_incl_tax/from | to load with total due starting from value
 filter/row_total_incl_tax/to | to load with total due up to value
 
-All filters are reflected in “Profile Wizard” tab for profile in “Export Filters” section once “Orders” entity type selected to export. The best way to set filters up is save the profile and copy resulting XML from “Profile Action XML” tab.
+All filters are reflected in the “Profile Wizard” tab for profile in “Export Filters” section once the “Orders” entity type selected to export. The best way to set up filters is to save the profile and copy the resulting XML from “Profile Action XML” tab.
 
  
