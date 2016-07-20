@@ -35,7 +35,7 @@ Run the next command to get the arguments description
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Price/Export.php --help
 
-The output data feed var/export/Innoexts/ProductBaseCurrency/product-price.csv should have the next format:
+The output data feed var/export/Innoexts/ProductBaseCurrency/product-price.csv should have the following format:
 
 	sku,store,price
 	"HTC Touch Diamond",,750
@@ -52,11 +52,11 @@ Run the script with your arguments:
 
 Note, The script path is related to the document root in the sample, but can be replaced with the absolute path (to run via cron service for example), file-path directory is always related to the document root.
 
-Run the next command to get the arguments description
+Run the next command to get the argument's description
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Special/Export.php --help
 
-The output data feed var/export/Innoexts/ProductBaseCurrency/product-special-price.csv should have the next format:
+The output data feed var/export/Innoexts/ProductBaseCurrency/product-special-price.csv should have the following format:
 
 	sku,store,price
 	"HTC Touch Diamond",,740
@@ -75,11 +75,11 @@ Run the script with your arguments:
 
 Note, The script path is related to the document root in the sample, but can be replaced with the absolute path (to run via cron service for example), file-path directory is always related to the document root.
 
-Run the next command to get the arguments description
+Run the following command to get the arguments description
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Group/Export.php --help
 
-The output data feed var/export/Innoexts/ProductBaseCurrency/product-group-price.csv should have the next format:
+The output data feed var/export/Innoexts/ProductBaseCurrency/product-group-price.csv should have the following format:
 
 	sku,all_groups,customer_group,website,price
 	"HTC Touch Diamond",,"General",,730
@@ -95,7 +95,7 @@ Run the script with your arguments:
 
 Note, The script path is related to the document root in the sample but can be replaced with the absolute path (to run via cron service for example), file-path directory is always related to the document root.
 
-Run the next command to get the arguments description
+Run the following command to get the arguments description
 
 	php shell/Innoexts/ProductBaseCurrency/Catalog/Product/Price/Tier/Export.php --help
 
