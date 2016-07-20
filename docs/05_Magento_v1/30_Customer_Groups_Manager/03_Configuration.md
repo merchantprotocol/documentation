@@ -1,4 +1,4 @@
-In admin panel navigate to: System -> Configuration -> Customers -> Customer Groups
+In the admin panel navigate to: System -> Configuration -> Customers -> Customer Groups
 
 ![Customer Groups Manager - Configuration](customer-group-configuration.png) 
 
@@ -11,7 +11,7 @@ The next sections are available in the configuration: Options, Catalog, Currency
  
 ### Enabled
 
-Here you can enable / disable module functions globally. This option has a higher priority in the module.
+Here you can enable / disable the module functions globally. This option has a higher priority in the module.
 
 ### Minimum Order Amount
 
@@ -23,7 +23,7 @@ Note: Minimum order amount should be enabled in the system in order to get this 
 
 ![Customer Groups Manager - Configuration - Catalog](customer-group-configuration-catalog.png 
 
-This section is dedicated for catalog specific options.
+This section is dedicated to catalog specific options.
 
 ### Category Filter
 
@@ -31,7 +31,7 @@ The product category filter can be enabled / disabled here.
 
 ### Product Filter
 
-Turn product filter on / off.
+Turn the product filter on / off.
 
 ## Currency
 
@@ -39,7 +39,7 @@ Turn product filter on / off.
 
 ### Currency Filter
 
-Enable / disable currencies filter here.
+Enable / disable currency filters here.
 
 ### Default Currency
 
@@ -51,7 +51,7 @@ Allow default currency here.
 
 ### Store Filter
 
-Enable / disable stores filter here.
+Enable / disable store filters here.
 
 ### Default Store
 
@@ -59,7 +59,7 @@ Allow default store here.
 
 ### Default Redirect URL
 
-The default redirect URL in case if a store is forbidden for a visitor.
+The default redirect URL in case a store is forbidden for a visitor.
 
 ## Payment
 
