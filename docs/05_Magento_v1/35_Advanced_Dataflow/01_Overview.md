@@ -3,14 +3,14 @@
  - [Demo It](http://demo.merchantprotocol.com/M1-advanced-data-flow)
  - [Forum: Talk About It](https://merchantprotocol.com/forums/forum/magento-plugin-forum/advanced-dataflow/)
 
-The “Advanced Dataflow” extension is a set of additional adapters and parsers to increase Magento Dataflow flexibility. As you may know, Magento migration processes are introduced with profiles. Each profile is a combination of actions (adapters / parsers / mappers) to transfer data from one format into another. The adapters and parsers variety makes migration process flexible. The Magento enables customers and products (with or without an inventory) to be exported / imported using CSV or Excel XML formats. The “Advanced Dataflow” extends default bounds to cover more needs. The most essential “Advanced Dataflow” feature is orders import and export. It appends orders to list of available entities to migrate.
+The “Advanced Dataflow” extension is a set of additional adapters and parsers to increase the Magento Dataflow flexibility. As you may know, Magento migration processes are introduced with profiles. Each profile is a combination of actions (adapters / parsers / mappers) to transfer data from one format into another. The adapters and parsers variety makes the migration process flexible. Magento enables customers and products (with or without an inventory) to be exported / imported using CSV or Excel XML formats. The “Advanced Dataflow” extends default bounds to cover more needs. The most essential “Advanced Dataflow” feature is the order import and export. It appends orders to list of available entities to migrate.
 
 Read more about [Dataflow HERE](http://docs.magento.com/m1/ce/user_guide/store-operations/dataflow.html)
 
 Magento Dataflow is a data exchange framework that can be used by both merchants and developers. The basic Dataflow tool includes preconfigured profiles that make it easy to import and export product and customer data. The profiles can be used as they are, or be modified to meet your needs. You can create additional profiles for operations that are performed on a regular basis. For more sophisticated applications, Advanced Profiles can be defined in XML to perform custom data exchange operations.
 
 The following instructions show how to use Dataflow profiles to export all product data, and import new product images.
-
+-
 ![Dataflow Profiles](dataflow-profiles_thumb_0_0.png)
 
 ## Step 1: Export All Products
@@ -62,7 +62,7 @@ For this example, we will add three new images to SKU #hdb005. Because this is t
 
 Currently, this product has only one image that is used for the base image, small image, and thumbnail. Because we’re going to now offer this product in three colors, we need to upload an image for each color, and replace the image that’s currently assigned to the product. Because this is a simple product, we can later use Custom Options to add an option for each color.
 
-Magento creates a directory structure of product image files that is organized alphabetically. You can see that path before each image file name in the CSV data. However, when you import images, you must never include that path before the file name. The only thing you have to do is to enter a forward slash before the file name of each image that you want to import. Magento takes care of the rest. For this example, we need to add the three image files that were uploaded to the media/import folder.
+Magento creates a directory structure of product image files that is organized alphabetically. You can see that path before each image file name in the CSV data. However, when you import images, you must never include that path before the file name. The only thing you have to do is enter a forward slash before the file name of each image that you want to import. Magento takes care of the rest. For this example, we need to add the three image files that were uploaded to the media/import folder.
 
 	/hdb005_HOTP_600.jpg
 	
@@ -80,7 +80,7 @@ In the data, we will replace the original image file name, and add the other two
 1. 	On the Admin menu, select System > Import/Export > Dataflow - Profiles.
 2. 	In the list of profiles, select Import All Products.
 
-This general-purpose profile that can be used to import or update any number or product records.
+This general-purpose profile can be used to import or update any number or product records.
 
 ![Import All Products](dataflow-import-all-products_thumb_0_0.png)
 3. 	In the panel on the left, select Upload File.
