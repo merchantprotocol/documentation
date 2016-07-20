@@ -1,4 +1,4 @@
-We would like to suggest that you keep a development copy of a live installation for a new or updated extensions testing. Follow the steps listed below.
+We would like to suggest that you keep a development copy of the live installation for a new or updated extension testing. Follow the steps listed below.
 
 1. Make sure that your system corresponds to Magento requirements.
 
@@ -16,9 +16,9 @@ with
 
 4. Back up the Magento files and database to be able to revert changes in a couple of minutes in case of possible problems.
 
-5. Enable Magento error logs: System > Configuration > Advanced > Developer > Log Settings, Set Enabled to Yes. You can find errors information in files: var/log/system.log and var/log/exception.log (the file paths are related to the document root).
+5. Enable the Magento error logs: System > Configuration > Advanced > Developer > Log Settings, Set Enabled to Yes. You can find the error information in the files: var/log/system.log and var/log/exception.log (the file paths are related to the document root).
 
-6. Extract extension and upload the files into the document root. Double check that all files were uploaded successfully into the correct directory.
+6. Extract the extension and upload the files into the document root. Double check that all files were uploaded successfully into the correct directory.
 
 7. Navigate to System > Cache Management. Press the Flush Cache Storage button.
 
