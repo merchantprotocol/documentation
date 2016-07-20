@@ -1,4 +1,4 @@
-Currencies prices importing is not a built-in feature currently. However, we have ready made script to accommodate you. The source data feed can vary. Therefore, some custom corrections may be needed. This script allows to import prices in a fast way (much more faster then Dataflow may do it).
+Currency price importing is not a built-in feature currently. However, we have a ready-made script to accommodate you. The source data feed can vary. Therefore, some custom corrections may be needed. This script allows you to import prices in a fast way (much more faster then Dataflow may do it).
 
 Follow the next sequence:
 
@@ -15,7 +15,7 @@ Follow the next sequence:
 	    --file-path /var/import/ \
 	    --file-filename localfilename.csv
 
-Run the next command to get arguments description
+Run the next command to get the arguments description
 
 	php shell/product-price-importer.php --help
 
