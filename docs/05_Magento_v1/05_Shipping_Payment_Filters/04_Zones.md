@@ -8,7 +8,7 @@ Here you can create new customer zones by pressing the Add New Zone button or by
 
 ![Zones Manager - Manage Zones - Add / Edit Zone - General](zone-zone-edit-general-700x536.png)
 
-The only tab that is available for the create new zone process is General. Here you fill in zone general details
+The only tab that is available for the create new zone process is General. Here you fill in zone general details. For example, a general zone would be Canada. This general zone will have subzones assigned to it. 
 
 #### Code
 
@@ -54,7 +54,7 @@ The default redirection URL is needed if a store isn’t allowed for a customer.
 
 ![Zones Manager - Manage Zones - Add / Edit Zone - Subzones](zone-zone-edit-subzones-700x359.png)
 
-Each zone can include a number of subzones in it for the flexibility. Each subzone can be defined as country, region, exact zip code or zip codes range.
+Each zone can include a number of subzones in it. Each subzone can be defined as country, region, exact zip code or zip codes range. For example, say, that your general zone is Canada. You could then have a list of all the postal codes that you want to include in that zone. For Canada, because the postal codes include numbers and letters, you would use the wildcard option. This allows you to enter "1H1*" or "H1H*", which would say that anything that starts with "1H1" or "H1H", would be included. 
 
 Note, region select is available for the specific countries only with "regions data" installed initially.
 
