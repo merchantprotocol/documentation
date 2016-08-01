@@ -42,6 +42,6 @@ As you can see, the total price adjusts per payment method selected. Below we ha
 
 ![Authorize.net on Checkout](Authorize_net_checkout.png)
 
-1[Cash on Delivery on Checkout](cash_checkout.png)
+![Cash on Delivery on Checkout](cash_checkout.png)
 
 
