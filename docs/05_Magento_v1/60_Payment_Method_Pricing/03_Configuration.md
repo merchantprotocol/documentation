@@ -14,3 +14,4 @@ In the cart, users can select the payment methods they want to use and the price
 
 ![Cart](cart.png) 
 
+You need to have symlinks allowed in the System -> Configuration -> Advanced:
