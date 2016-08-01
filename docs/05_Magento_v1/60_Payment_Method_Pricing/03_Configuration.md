@@ -36,6 +36,12 @@ On the product's front end, the payment group prices will be displayed. The prod
 
 In the cart, users can select the payment methods they want to use and the prices will reflect their selected payment method:
 
-![Payment Method on Checkout](Product_Frontend_Display.png)
+![Payment Methods on Checkout](Checkout_Payment_Method.png)
+
+As you can see, the total price adjusts per payment method selected. Below we have examples of when Authorize.net is chosen and when Cash on Delivery is chosen:
+
+![Authorize.net on Checkout](Authorize_net_checkout.png)
+
+1[Cash on Delivery on Checkout](cash_checkout.png)
 
 
