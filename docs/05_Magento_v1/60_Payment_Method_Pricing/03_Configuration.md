@@ -21,9 +21,13 @@ Next, set the specific Payment Methods for that Payment Group. For example, you 
 
 ![Debit Card Payment Group](Debit_Card_Payment_Group.png)
 
-Once your payment groups are ready, set your products prices as needed:
+Once your payment groups are ready, set your products prices as needed. On this page, you set the Price, Payment Group Price, Payment Group Special Prices and Tiered Prices. 
+* Special Price = When you feature a product for a set period of time
+* Tiered Pricing = Offering better prices when customer purchases higher volume of product
 
-![Product Edit Prices](prices.png) 
+![Product Prices](Product_price_dashboard.png)
+
+![Special Pricing & Tiered Pricing](special_tiered_pricing.png)
 
 On the product's front end, the payment group prices will be displayed:
 
