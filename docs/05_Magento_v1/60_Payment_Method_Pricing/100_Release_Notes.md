@@ -2,7 +2,7 @@
 
 2016-06-08 18:00:00
 
- - Ability to add Payment Method Groups and associate with many payment methods
- - Ability to set pricing, special pricing, tiered pricing for products, based on payment method group
+ - Ability to add Payment Method Groups and associate it with many payment methods
+ - Ability to set pricing, special pricing, special group pricing, tiered pricing for products, based on payment method group
  - Ability to choose a payment method fromm the cart page, prices update accordingly
  - Locks the user into a specific payment method during checkout
