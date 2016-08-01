@@ -9,7 +9,7 @@ This extension great for individuals selling products with a small profit margin
 
 With our extension, you can set the price of your product based on the customer's payment method. The first step of this process is to create payment groups. You could set up a debit card group and a offline group. The debit card group would include all transactions with Paypal, Authorize.net, Stripe, anything that includes accepting payment with a debit / credit card. Next, in the offline payment group, would include transactions such as wire transfers and checks. These payment groups are using during the checkout process. 
 
-These groupes are necessary to alter the price depending on the payment group selected. Checks and wire transfers don't have any fees, allowing you to offer a price of $1000. If the customer chooses to pay with a debit card, you have to charge $1100, in order to pay the merchant fees. In summary, the payment groups allow you to change the product's price depending on the payment method, allowing you to still make a profit. 
+These groups are necessary to alter the price depending on the payment group selected. Checks and wire transfers don't have any fees, allowing you to offer a price of $1000. If the customer chooses to pay with a debit card, you have to charge $1100, in order to pay the merchant fees. In summary, the payment groups allow you to change the product's price depending on the payment method, allowing you to still make a profit. 
 
 In addition, tiered pricing is a feature included with this extension. It's effective for you to offer 1 silver bar for $1000 and 2 silver bars for $1800. It helps you attract more business with better deals the more the customer purchases. 
 
