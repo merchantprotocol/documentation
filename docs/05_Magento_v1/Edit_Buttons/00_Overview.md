@@ -1,0 +1,9 @@
+# M1 Edit Buttons
+
+This extension offers a simple way to edit your site. If you aren't familiar with Magento's Backend Admin, this is a great solution for you. When you log in as an admin, you will see your frontend site instead of the backend admin dashboard. On every CMS page, Category page and Product page, there will be an Edit button. Once this button is clicked, it directs you to the Backend Magento page that controls that page. Simple edit the necessary changes and click save. Our Edit Buttons extension allows you to quickly find and edit any part of your website with ease. 
+
+Buy It
+Demo It
+Forum 
+
+
