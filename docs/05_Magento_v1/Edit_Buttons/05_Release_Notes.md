@@ -1,7 +1,6 @@
-# Release Notes for M1 Edit Buttons
+### Edit Buttons 1.0.0.0 (Aug 13, 2016)
 
-## [1.0.0.0](https://github.com/merchantprotocol/M1-edit-buttons/releases/tag/1.0.0.0) (2016-08-29)
-[Full Releases](https://github.com/merchantprotocol/M1-edit-buttons/releases)
+2016-10-01 02:10:45
 
 - Uninstall script
 - Initial build
