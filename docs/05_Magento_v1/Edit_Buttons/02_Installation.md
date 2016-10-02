@@ -34,7 +34,7 @@ with
 
 Note, the conflict resolving service isn’t included in the support package. Please check the module for conflicts before opening the code.
 
-13. Navigate to System > Configuration > Merchant Protocol > Customer Referral. Enter configuration settings and save.
+13. Navigate to System > Configuration > Merchant Protocol > Shortcut. Enter configuration settings and save.
 
 You made it!
 
