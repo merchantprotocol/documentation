@@ -1,6 +1,6 @@
 ## How to Use?
 
-To use this feature you must be logged in admin.
+To edit the following pages you need to log in to the admin.
 
 ## CMS Pages
 
