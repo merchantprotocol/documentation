@@ -2,7 +2,7 @@ Currency price importing is not a built-in feature currently. However, we have a
 
 Follow the next sequence:
 
-1. [Download](ProductPriceImporter.tar.gz) and extract the script to Magento document root directory
+1. [Right click and Save As](https://merchantprotocol.com/user_manuals/ProductPriceImporter.tar.gz) and extract the script to Magento document root directory
 
 2. Run php command with your arguments:
 
